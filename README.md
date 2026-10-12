@@ -1,109 +1,67 @@
-# Never Crisis — Self-hosted game server for FF7 EVER CRISIS. Keep Midgar online after official EOS.
+## Deskripsi
 
-- **Why:** the service is shutting down; this keeps the single-player game — the stories above all — playable on your own machine.
-- **How:** install the game first, unzip this package into the game's folder (it replaces two files and adds the rest), then run `FF7ECServer.exe`: it starts the game and cleans up when you close it.
-- **Admin prompt:** once per launch, to add a few lines to the Windows hosts file that point the game at this server; removed on exit.
-- **Needs:** Windows 10/11 x64, the complete game folder (`FF7EC_Data`, `octo` and the files included), port 443 free. No Steam client, no internet, nothing to install.
-- **Not included, on purpose:** the game — it is Square Enix's and must come from your own installation — and the server's source for obvious reasons. 
+fork dari [NeverCrisis](https://github.com/DelistedCloud/NeverCrisis). Bagian utamanya tidak dimodifikasi dan download dari [NeverCrisis Releases](https://github.com/DelistedCloud/NeverCrisis/releases) aslinya disana. NeverCrisis disana adalah untuk instalasi windows. Yang ada disini hanyalah wrapper/script tambahan untuk menjalankan server offline di linux. Saya bukan ahli dalam pemrograman, script ini menggunakan bantuan dari Gemini AI.
 
-## Disclaimer
+## PENGGUNAAN
 
-- **Not affiliated:** this is a fan project. It is not made, endorsed, supported or approved by Square Enix, Applibot, Valve/Steam or anyone connected to them. FINAL FANTASY, FINAL FANTASY VII EVER CRISIS and all characters, art, music, text and data belong to Square Enix Co., Ltd.
-- **No game data:** the package holds the server, its own recordings of network traffic, the game's tables and text (the same files the game downloaded to every player). Models, stages, music, movies — the game itself — stay in the copy you installed yourself.
-- **No account, no money:** it does not touch Square Enix's servers, your Square Enix or Steam account, and nothing can be bought — the in-game shop for real money does not exist here.
-- **Not for profit:** made to keep the single-player stories playable after the service ends. Never pay for this; it is free and must stay free.
-- **As is:** no warranty of any kind. You use it at your own risk; the authors are not responsible for lost saves, a broken installation or anything else that follows from using it.
-- **Single player only:** co-op, rankings and anything that needs other people are gone with the service and are not coming back.
+Catatan pribadi jika saya sudah menghapus dan ternyata setelah sekian waktu ingin main lagi.
 
-## The folder
+Bersasarkan trik terbaru dari beberapa diskusi [issue](https://github.com/DelistedCloud/NeverCrisis/issues/3).
+ada yang share panduan dalam bentuk pdf, intinya file yang didownload dari release `NeverCrisis` disimpan folder instalasi game, kecuali bagian folder `save` ditempatkan di lokasi berbeda. Untuk lokasi versi linux ada di dalam direktory steam prefix
+`../../compatdata/2484110/pfx/drive_c/users/steamuser/Documents/My Games/FF7EC/Steam`.
 
-Three kinds of files end up side by side in the game folder.
+di diskusi tersebut juga ada petunjuk mendownload data game. Untuk versi linux bisa menggunakan `steamdepotdownloader` atau `steamdepotdowanloadergui`. Tapi sepertinya memerlukan login Steam dan hanya untuk yang pernah memainkan game online resmi sebelum EOS.
 
-**1. The game — from your own installation (about 47 GB):**
+membutuhkan `libfaketime`: 
+> sudo pacman -S libfaketime
 
-| | |
-|---|---|
-| `FF7EC.exe` (650 KB), `GameAssembly.dll` (140 MB), `baselib.dll` (400 KB), `UnityCrashHandler64.exe`, `Applibot.GraphicsUtility.dll`, `NativeVideoUtility.dll` | the game's own files |
-| `FF7EC_Data\` (387 MB) | `il2cpp_data`, `Resources`, `StreamingAssets`, `Plugins`, `data.unity3d` … |
-| `octo\` (46.5 GB, 235,000 files) | every model, stage, effect and movie, downloaded by the game while the service was up — without it fights cannot load |
+perizinan server (port 443) hanya dibutuhkan sekali: 
+> sudo sysctl -w net.ipv4.ip_unprivileged_port_start=443
 
-**2. This package (48 MB), unzipped on top:**
-
-| | |
-|---|---|
-| `FF7ECServer.exe` (4 MB) | the server — run this to play |
-| `FF7ECServer.pak` (23 MB) | the server's data |
-| `items.txt`, `README.md` | every item id (for `--give`), this file |
-| `UnityPlayer.dll` (29 MB), `FF7EC_Data\Plugins\x86_64\steam_api64.dll` | the two game files it replaces |
-| `save\MasterData\` (11 MB), `save\LocalizeText\` (1 MB) | the game's tables and text, as the service last published them |
-
-**3. Created by the server on the first run:**
-
-| | |
-|---|---|
-| `config.ini`, `events.ini` | settings (see below) |
-| `ff7ec_account_id.txt` | the number of your offline account |
-| `data\` | your account and gift box, the server's certificate |
-| `save\GameSave\`, `save\MessagePack\` | the game's own save and cache |
-| `backups\` | a copy of the account before a reset |
-
-**To keep your progress, back up `data\`, `save\GameSave\` and `ff7ec_account_id.txt` together.** Everything else can be replaced.
-
-## What works
-
-Story chapters, side stories, character stories, dungeons, areas, tower, daily quests, events (solo, Clash and Crisis Battle included), draws, shops, crafting, chocobos, Highwind, missions, login bonuses, season pass, and a guild of your own: create it, its daily missions, bonuses, login bonus and achievements work, and the guild chat is yours alone.
-
-Ended solo events can be brought back (`events.ini`). The draw banners open when this was made (dated until 7 October 2026) stay open for good; banners that had already ended cannot come back — the service deleted their odds.
-
-## What does not work
-
-- **Co-op** (private rooms, matchmaking): the fight runs on a server that no longer exists. Solo fights count for the co-op missions instead.
-- **Guild battles, joining other guilds, friends, rankings, real-money purchases, account transfer:** they need other people or the real service.
-- **Damage Challenge:** it needs the same battle server as co-op.
-- **The Featured and Crossover draw tabs are empty:** their odds are gone from the game data.
-
-## Known differences from the real service
-
-- Draw odds are the game's own tables. Battle drop chances are estimates from recorded play: how often a non-guaranteed drop pays, and how often a clear adds a weapon or materia, were never in the game's data.
-- A character who joins through the story arrives at the level of your weakest character (the real rule is unknown).
-- Some mission chains and rare counters may advance slightly differently.
-- Clash and Crisis Battle scores are kept, but their rankings were other players.
-- The growth board tutorial can freeze the screen after the first board opens — a bug of the game itself, present online too. Restart the game.
-
-## Settings
-
-`config.ini`, next to the server; edit, save, restart.
-
-| | |
-|---|---|
-| `reopen_events` / `events.ini` | bring ended solo events back, all or one by one |
-| `keep_expired_items` | keep event currencies usable after their date |
-| `infinite_crystals`, `infinite_paid_crystals`, `infinite_stamina`, `infinite_gil` | never spend them |
-| `unlock_season_pass`, `season_pass` | open the paid pass track; pick the season (0 = newest) |
-| `solo_counts_as_coop` | solo battles count for co-op missions (on by default) |
-
-## Command-line options
-
-Open a command prompt in the game folder (type `cmd` in the Explorer address bar) and start the server with the options; it then runs as usual and the game starts.
-
-| | |
-|---|---|
-| `FF7ECServer.exe --give NAME=COUNT` | add currency or items to your account, once per thing, as many as you like |
-| `FF7ECServer.exe --reopen-events` | bring back every ended solo event, ignoring `events.ini` |
-| `FF7ECServer.exe --reset-account`, `--restore-account FOLDER` | see *Starting over* |
-
-**`--give`** — the names: `crystals`, `red_crystals` (paid), `gil`, `stamina`, `chocobo_medals`, `weapon_medals`, `crisis_medals`, `dungeon_keys`, `gear_vouchers`, `memory_vouchers`, `parts`; anything else is `item=ID=COUNT` with the id from `items.txt` (next to the server: every item, its type and name — draw tickets are one id per banner).
-
+mengedit hosts:
 ```
-FF7ECServer.exe --give crystals=3000 --give gil=200000
-FF7ECServer.exe --give item=9003=100 --give item=10012=30
-```
+sudo sh -c 'cat << "EOF" >> /etc/hosts  
+   
+# FF7EC Offline Server  
+127.0.0.1 game-q74z3cyn.app.gl.ffviiec.com  
+127.0.0.1 resources-api-c9ps53g2.app.gl.ffviiec.com  
+127.0.0.1 client-masterdata-c9ps53g2.app.gl.ffviiec.com  
+127.0.0.1 chat-pd381ne.app.gl.ffviiec.com  
+EOF'  
+``` 
 
-The amounts land in the account before the game starts and show at the next login. The `infinite_*` settings in `config.ini` are the alternative: nothing is ever spent.
+ada 2 file disalin ke dalam direktori game FF7EC:
+- start_offline.sh
+- server_args.txt
 
-## Starting over
+**start_offline.sh** adalah file untuk menjalankan server offline. Yang tercantum di dalam berdasarkan PC saya saat dibuat, jadi ada yang harus di cek dan mungkin disesuaikan ulang dari file ini sebagai berikut:
+- sekitar line 11: STEAM_ROOT: isinya direktori Steam. Instalan default biasanya di ~/.local/share/Steam. Biasanya ada berisi folder compatibilitytools.d, steam, steamapps, ubuntu12_32, ubuntu12_64, linux32, linux64, dan lain sebagainya.
+- sekitar line 12: COMPAT_DATA: isinya direktori compatdata/sream prefix game.
+- sekitar line 13: PROTON_BIN: isinya direktori proton. Saat ini menggunakanPROTON experimental.
+- sekitar line 72: untuk mengubah tanggal. gamenya EOS tanggan 7 Oktober 2026, ada update perubahan file saat tanggal 5 Oktober 2026, saat ini tercantum 4 Oktober 2026. mungkin butuh untuk memanipulasi login reward, hanya disarankan tanggal-tanggal sebelum 5 oktober.
 
-- **"Reset Game Data"** in the title menu: a fresh account, the tutorial from the start; downloaded data is kept.
-- `FF7ECServer.exe --reset-account`: the same from outside the game, when it will not start (a copy of the old account and save is kept in `backups\<stamp>-reset`).
-- `FF7ECServer.exe --restore-account backups\<folder>`: put a backed-up account and save back (what they replace is backed up too).
+**server_args.txt** adalah file menggunakan tambahan option seperti `--give item...` atau `--reopen-events` . Option ini akan otomatis disertakan saat mengeksekusi file `./start_offline.sh`. List ID itemnya ada didalam sebuah file items.txt termasuk didalam release `NeverCrisis` aslinya.
 
+Untuk menjalankan game dari mengeksekusi `start_offline.sh`. Pastikan terminal berada dalam direktori tempat script ini berada.
+> ./start_offline.sh
+
+
+## Catatan Gameplay, Masalah dengan triknya
+Karena sudah pasti tidak semua berjalan seperti sebelum EOS. Beberapa sudah disebutkan di page `NeverCrisis`. Dan ini tambahan yang terjadi di saya. Untuk trik kebanyakan jadi bergantung ke opsi --give item dari `NeverCrisis`.
+
+- padahal offline, tapi jika tersambung ke internet, stuck/blank di launcher setelah "click to start". Hanya bisa masuk jika memutuskan semua jaringan (ada blank sih sebentar).
+- di game aslinya. jika dapat weapon ganda akan dapat 200 weapon parts (dari gacha atau dari exchange currency). tapi sekarang hanya dapat 1. jadi dari disarankan tambah dari --give item weapon part per karakter.
+- unlock costume/gear sepertinya terkumpul semua di exchange > `gear 3rd anniversary gear` voucher. jadi ambil vouchernya dari --give juga. beberapa costume seperti aerith chocobo atau zack swimsuit excange dari event.
+- weapon event juga terkumpul di event sephiroth terbaru. jadi ambil `sephiroth certificate` dari --give item dan exchange di page event.
+- memoria tidak bisa drop dari melakukan event. Tapi masih bisa diambil dari exchange > medal > co-op medal (offline gak bisa co-op, juga dari opsi --give)
+- materia elemen dan ruin terkumpul di exchange > enhancement > 5* materia
+- menaikan level materia hanya bisa menggunakan materia lain.
+
+## Masalah belum ada triknya
+- tidak bisa memulai misi summon.
+- tidak bisa unlock TUNING, karakter rolestream meski semua misi terpenuhi. rolestream treenya masih bisa.
+- tidak bisa buka chocobo farm, stuck di loading stream.
+- `Umbral Sword` katanya hanya dari event login 1.5 anniversary dan selain dari itu, tidak tahu darimana lagi cara dapatnya.
+
+## Apa lagi ya?
+seperti yang dibilang diawal saya bukan ahli. Jadi tidak akan bisa menanggapi issue. Maaf.

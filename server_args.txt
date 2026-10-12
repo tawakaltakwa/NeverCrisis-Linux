@@ -1,0 +1,323 @@
+# ==============================================================================
+# Parameter Tambahan untuk FF7ECServer.exe
+# ==============================================================================
+# Anda dapat menambahkan opsi baris perintah di bawah ini (satu per baris atau bersambung).
+# Baris yang diawali dengan tanda '#' adalah komentar dan akan diabaikan.
+#
+# CONTOH OPSI YANG DIDUKUNG:
+#
+# 1. Membuka kembali seluruh event yang sudah kedaluwarsa:
+#    --reopen-events
+#
+# 2. Menambahkan mata uang / item:
+#    --give crystals=3000
+#    --give red_crystals=3000
+#    --give gil=500000
+#    --give stamina=500
+#    --give chocobo_medals=1000
+#    --give weapon_medals=1000
+#    --give crisis_medals=10000
+#    --give dungeon_keys=50
+#    --give gear_vouchers=10
+#    --give memory_vouchers=10
+#
+# 3. Menambahkan item berdasarkan ID dari items.txt:
+#    --give item=9003=100
+#
+# 4. Mereset akun jika terjadi error/corrupt (opsional):
+#    --reset-account
+#
+# ==============================================================================
+
+#--reopen-events
+# duit butuh loba
+#    --give crystals=3000
+#    --give red_crystals=3000
+#    --give gil=500000000
+#    --give stamina=500
+#    --give chocobo_medals=1000000
+#    --give weapon_medals=1000
+#    --give crisis_medals=1000
+#    --give dungeon_keys=50
+#    --give gear_vouchers=10
+#    --give memory_vouchers=10
+
+
+# --give item=13=300000
+# memory upgrade
+#--give item=40003=5000000
+
+#Limit Break
+#medal
+#--give item=100051=4000
+#--give item=300029=400
+#--give item=300039=400
+#--give item=300040=400
+#--give item=300041=400
+#--give item=300042=400
+#--give item=300043=400
+#--give item=300049=400
+#--give item=300050=400
+#--give item=300052=400
+#--give item=300053=400
+#--give item=300065=400
+#--give item=300073=400
+#--give item=300075=400
+#--give item=300078=400
+# 1.5
+#--give item=22518=100
+#--give item=22519=100
+#--give item=22520=100
+#--give item=100049=10
+#--give item=300023=10
+
+# gear voucher
+#--give item=21=200
+# gear 3rd anniversary gear
+#--give item=300101=150
+# Festival of Gratitude Gear Voucher
+#--give item=300099=30
+# Festival of Gratitude Crossover Gear Voucher
+#--give item=300102=30
+# 5 star voucher
+#--give item=22=1000
+# ultimate medal
+#--give item=300002=1600
+# co-op medal
+#--give item=13=15000
+# enemy voucher
+#--give item=53=3000
+# 5 star materia
+#--give item=2030534=1000
+
+
+
+# bahan upgrade
+# chunk
+#--give item=9003=1000000
+# steel
+#--give item=10011=1000000
+#--give item=10012=1000000
+#--give item=10013=1000000
+# elctrum
+#--give item=10021=1000000
+#--give item=10022=1000000
+#--give item=10023=1000000
+## rose gold
+#--give item=10041=1000000
+#--give item=10042=1000000
+#--give item=10043=1000000
+# nano cube
+#--give item=10181=1000000
+#--give item=10182=1000000
+#--give item=10191=1000000
+#--give item=10192=1000000
+#--give item=10202=1000000
+# gnome
+#--give item=10151=1000000
+#--give item=10152=1000000
+#--give item=10161=1000000
+#--give item=10162=1000000
+#--give item=10172=1000000
+## mithril
+#--give item=10111=1000000
+#--give item=10112=1000000
+#--give item=10113=1000000
+#--give item=10114=1000000
+
+
+# weapon voucher
+
+# mako gem /untuk ulti weapon
+#--give item=1001047=1000
+#--give item=1001054=1000
+#--give item=1002036=1000
+#--give item=1002044=1000
+#--give item=1003040=1000
+#--give item=1003051=1000
+#--give item=1004036=1000
+#--give item=1004044=1000
+#--give item=1005041=1000
+#--give item=1005045=1000
+#--give item=1006032=1000
+#--give item=1006043=1000
+#--give item=1007032=1000
+#--give item=1007037=1000
+#--give item=1008025=1000
+#--give item=1008029=1000
+#--give item=1009025=1000
+#--give item=1020028=1000
+#--give item=1020041=1000
+#--give item=1049027=1000
+#--give item=1049042=1000
+#--give item=1050027=1000
+#--give item=1051029=1000
+#--give item=1052032=1000
+#--give item=1052036=1000
+#--give item=1056025=1000
+#--give item=1060008=1000
+
+# weapon part upgrade
+#--give item=1001=200000
+#--give item=1002=201000
+#--give item=1003=201000
+#--give item=1004=201000
+#--give item=1005=201000
+#--give item=1006=201000
+#--give item=1007=201000
+#--give item=1008=201000
+#--give item=1009=201000
+#--give item=1020=201000
+#--give item=1049=201000
+#--give item=1050=201000
+#--give item=1051=201000
+#--give item=1052=201000
+#--give item=1056=201000
+#--give item=1060=201000
+
+# karakter grow
+#--give item=12001=1000000
+#--give item=12002=1000000
+#--give item=12003=1000000
+
+# char memory
+#--give item=2001=100000
+#--give item=2002=100000
+#--give item=2003=100000
+#--give item=2004=100000
+#--give item=2005=100000
+#--give item=2006=100000
+#--give item=2007=100000
+#--give item=2008=100000
+#--give item=2009=100000
+#--give item=2020=100000
+#--give item=2049=100000
+#--give item=2050=100000
+#--give item=2051=100000
+#--give item=2052=100000
+#--give item=2056=100000
+#--give item=2060=100000
+#--give item=2101=100000
+#--give item=2102=100000
+#--give item=2103=100000
+#--give item=2104=100000
+#--give item=2105=100000
+#--give item=2106=100000
+#--give item=2107=100000
+#--give item=2108=100000
+#--give item=2109=100000
+#--give item=2120=100000
+#--give item=2149=100000
+#--give item=2150=100000
+#--give item=2151=100000
+#--give item=2152=100000
+#--give item=2156=100000
+#--give item=2160=100000
+
+# memory role
+#--give item=12201=20000
+#--give item=12202=20000
+#--give item=12203=20000
+#--give item=12204=20000
+#--give item=12205=20000
+#--give item=12301=20000
+#--give item=12302=20000
+#--give item=12303=20000
+#--give item=12304=20000
+#--give item=12305=20000
+
+# memory summon
+#--give item=3001=20000
+#--give item=3002=20000
+#--give item=3003=20000
+#--give item=3006=20000
+#--give item=3007=20000
+#--give item=3011=20000
+#--give item=3012=20000
+#--give item=3051=20000
+#--give item=3052=20000
+#--give item=3053=20000
+#--give item=3101=20000
+#--give item=3102=20000
+#--give item=3103=20000
+#--give item=3106=20000
+#--give item=3107=20000
+#--give item=3111=20000
+#--give item=3112=20000
+#--give item=3151=20000
+#--give item=3152=20000
+#--give item=3153=20000
+
+#highwind
+#astrowind
+#--give item=18003=100000
+#--give item=300014=5
+
+# sephiroth event coin for every event weapon
+#--give item=2030531=50000
+#--give item=2030532=50000
+#--give item=2030533=500000
+
+#guild medal
+#--give item=49=500000
+#--give item=50=500000
+#--give item=52=500000
+
+#--give item=48=500000
+
+#materia bookmark
+--give item=8001=2000000
+#up materia
+#--give item=4003=50000
+#materia bahan
+#--give item=5011=50000
+#--give item=5012=50000
+#--give item=5021=50000
+#--give item=5022=50000
+#--give item=5031=50000
+#--give item=5032=50000
+#--give item=5041=50000
+#--give item=5042=50000
+#--give item=5051=50000
+#--give item=5052=50000
+#--give item=5061=50000
+#--give item=5062=50000
+#--give item=5091=50000
+#--give item=5092=50000
+#--give item=5111=50000
+#--give item=5112=50000
+#--give item=5121=50000
+#--give item=5122=50000
+#--give item=6001=50000
+#--give item=6002=50000
+#--give item=6003=50000
+#--give item=6004=50000
+#--give item=6005=50000
+#--give item=6006=50000
+#--give item=6007=50000
+#--give item=6008=50000
+#--give item=6009=50000
+#--give item=6010=50000
+#--give item=6011=50000
+#--give item=6012=50000
+#--give item=6013=50000
+
+#customizer weapon
+#--give item=13001=50000
+#--give item=13002=50000
+#--give item=13003=50000
+#--give item=13101=50000
+#--give item=13201=50000
+#--give item=13202=50000
+#--give item=13301=50000
+
+# event things
+#--give item=2030401=20000
+#--give item=2030402=20000
+#--give item=2030403=20000
+#--give item=2030412=20000
+#--give item=2030471=3000
+#--give item=2030361=3000
+
+# highwind booster
+--give item=18100=30000
