@@ -8,7 +8,7 @@ Personal notes in case I have uninstalled the game and want to play it again aft
 
 Based on the latest workaround discussed in several [issues](https://github.com/DelistedCloud/NeverCrisis/issues/3).
 Someone shared a guide in PDF format; essentially, the files downloaded from the `NeverCrisis` release are placed in the game's installation folder, except for the `save` folder which is placed in a different location. For Linux, this location is inside the Steam prefix directory:
-`../../compatdata/2484110/pfx/drive_c/users/steamuser/Documents/My Games/FF7EC/Steam`.
+`../../compatdata/2484110/pfx/drive_c/users/steamuser/Documents/My Games/FF7EC/Steam/NUMBERID`.
 
 In that discussion, there are also instructions for downloading game data. For Linux, you can use `steamdepotdownloader` or `steamdepotdowanloadergui`. However, it seems to require a Steam login and only works for those who previously played the official online game before EOS.
 

@@ -10,7 +10,7 @@ Catatan pribadi jika saya sudah menghapus dan ternyata setelah sekian waktu ingi
 
 Bersasarkan trik terbaru dari beberapa diskusi [issue](https://github.com/DelistedCloud/NeverCrisis/issues/3).
 ada yang share panduan dalam bentuk [file pdf](https://cdn.discordapp.com/attachments/1557193074399117322/1557193074562703471/NeverCrisis-Setup-Guide-V2.1.pdf?backend=b2&ex=6ac79150&is=6ac63fd0&hm=4a9f4b74748033522a7d5acc1da3c0b594a0d0a38de4c6324735951e69fd449d&), intinya file yang didownload dari release `NeverCrisis` disimpan folder instalasi game, kecuali bagian folder `save` ditempatkan di lokasi berbeda. Untuk lokasi versi linux ada di dalam direktory steam prefix
-`../../compatdata/2484110/pfx/drive_c/users/steamuser/Documents/My Games/FF7EC/Steam`.
+`../../compatdata/2484110/pfx/drive_c/users/steamuser/Documents/My Games/FF7EC/Steam/NUMBERID`.
 
 di diskusi tersebut juga ada petunjuk mendownload data game. Untuk versi linux bisa menggunakan `steamdepotdownloader` atau `steamdepotdowanloadergui`. Tapi sepertinya memerlukan login Steam dan hanya untuk yang pernah memainkan game online resmi sebelum EOS.
 
