@@ -1,20 +1,24 @@
 English translation using AI [README.md](README-EN.md)
 
+Hanya catatan pribadi jika saya sudah menghapus dan ternyata setelah sekian waktu ingin main lagi.
+
 ## Deskripsi
 
-fork dari [NeverCrisis](https://github.com/DelistedCloud/NeverCrisis). Bagian utamanya tidak dimodifikasi dan download dari [NeverCrisis Releases](https://github.com/DelistedCloud/NeverCrisis/releases) aslinya disana. NeverCrisis disana adalah untuk instalasi windows. Yang ada disini hanyalah wrapper/script tambahan untuk menjalankan server offline di linux. Saya bukan ahli dalam pemrograman, script ini menggunakan bantuan dari Gemini AI.
+fork dari [NeverCrisis](https://github.com/DelistedCloud/NeverCrisis). Yang ada disini hanyalah wrapper/script tambahan untuk menjalankan server offline di linux. Saya bukan ahli dalam pemrograman, script ini menggunakan bantuan dari Gemini AI.
+
+Untuk offline servernya sendiri bisa menggunakan sebagai berikut:
+1. [NeverCrisis Delisted Cloud](https://github.com/DelistedCloud/NeverCrisis) - ini adalah main repository.
+2. [NeverCrisis ShadowMPo](https://github.com/ShadowMPo/NeverCrisis) - salah satu fork dari Delisted Cloud yang aktif, ada update perbaikan dari versi Delisted Cloud.
 
 ## PENGGUNAAN
 
-Catatan pribadi jika saya sudah menghapus dan ternyata setelah sekian waktu ingin main lagi.
-
 Bersasarkan trik terbaru dari beberapa diskusi [issue](https://github.com/DelistedCloud/NeverCrisis/issues/3).
-ada yang share panduan dalam bentuk [file pdf](https://cdn.discordapp.com/attachments/1557193074399117322/1557193074562703471/NeverCrisis-Setup-Guide-V2.1.pdf?backend=b2&ex=6ac79150&is=6ac63fd0&hm=4a9f4b74748033522a7d5acc1da3c0b594a0d0a38de4c6324735951e69fd449d&), intinya file yang didownload dari release `NeverCrisis` disimpan folder instalasi game, kecuali bagian folder `save` ditempatkan di lokasi berbeda. Untuk lokasi versi linux ada di dalam direktory steam prefix
-`../../compatdata/2484110/pfx/drive_c/users/steamuser/Documents/My Games/FF7EC/Steam/NUMBERID`.
+ada yang share panduan dalam bentuk [file pdf](NeverCrisis-Setup-Guide-V2.1.pdf), intinya file yang didownload dari release `NeverCrisis` disimpan folder instalasi game, kecuali bagian folder `save` ditempatkan di lokasi berbeda. Untuk lokasi versi linux ada di dalam direktory steam prefix
+`../../compatdata/2484110/pfx/drive_c/users/steamuser/Documents/My Games/FF7EC/Steam/NUMBERID`. `NUMBERID` adalah nomor id dari file `ff7ec_account_id.txt`.
 
 di diskusi tersebut juga ada petunjuk mendownload data game. Untuk versi linux bisa menggunakan `steamdepotdownloader` atau `steamdepotdowanloadergui`. Tapi sepertinya memerlukan login Steam dan hanya untuk yang pernah memainkan game online resmi sebelum EOS.
 
-membutuhkan `libfaketime`: 
+membutuhkan `libfaketime` jika ingin memanipulasi tanggal, wajib jika menggunakan versi `DelistedCloud`, opsional jika menggunakan versi `ShadowMPo`: 
 > sudo pacman -S libfaketime
 
 perizinan server (port 443) hanya dibutuhkan sekali: 
@@ -40,30 +44,13 @@ ada 2 file disalin ke dalam direktori game FF7EC:
 - sekitar line 11: STEAM_ROOT: isinya direktori Steam. Instalan default biasanya di ~/.local/share/Steam. Biasanya ada berisi folder compatibilitytools.d, steam, steamapps, ubuntu12_32, ubuntu12_64, linux32, linux64, dan lain sebagainya.
 - sekitar line 12: COMPAT_DATA: isinya direktori compatdata/sream prefix game.
 - sekitar line 13: PROTON_BIN: isinya direktori proton. Saat ini menggunakanPROTON experimental.
-- sekitar line 72: untuk mengubah tanggal. gamenya EOS tanggan 7 Oktober 2026, ada update perubahan file saat tanggal 5 Oktober 2026, saat ini tercantum 4 Oktober 2026. mungkin butuh untuk memanipulasi login reward, hanya disarankan tanggal-tanggal sebelum 5 oktober.
+- jika menggunakan versi `ShadowMPo`, sudah di fix tanggal EOS, mengubah tanggal tidak wajib, jadi sekitar line 59 sampai line 94 bisa di nonaktifkan dengan cara dijadikan comment (menambahkan `#` pada tiap baris).
+- jika menggunakan versi `Delisted Cloud`, sekitar line 72: untuk mengubah tanggal. gamenya EOS tanggan 7 Oktober 2026, ada update perubahan file saat tanggal 5 Oktober 2026, saat ini tercantum 4 Oktober 2026. BTW. manipulasi waktu ini berguna di `Delisted Cloud` dan `ShadowMPo` untuk memanipulasi login reward dari event tertentu atau membuka banner gacha Gratitude Event jika di set ke tanggal 29 Juli 2026. atau mungkin coba-coba ke tanggal lebih lama lagi.
 
 **server_args.txt** adalah file menggunakan tambahan option seperti `--give item...` atau `--reopen-events` . Option ini akan otomatis disertakan saat mengeksekusi file `./start_offline.sh`. List ID itemnya ada didalam sebuah file items.txt termasuk didalam release `NeverCrisis` aslinya.
 
 Untuk menjalankan game dari mengeksekusi `start_offline.sh`. Pastikan terminal berada dalam direktori tempat script ini berada.
 > ./start_offline.sh
-
-
-## Catatan Gameplay, Masalah dengan triknya
-Karena sudah pasti tidak semua berjalan seperti sebelum EOS. Beberapa sudah disebutkan di page `NeverCrisis`. Dan ini tambahan yang terjadi di saya. Untuk trik kebanyakan jadi bergantung ke opsi --give item dari `NeverCrisis`.
-
-- padahal offline, tapi jika tersambung ke internet, stuck/blank di launcher setelah "click to start". Hanya bisa masuk jika memutuskan semua jaringan (ada blank sih sebentar).
-- di game aslinya. jika dapat weapon ganda akan dapat 200 weapon parts (dari gacha atau dari exchange currency). tapi sekarang hanya dapat 1. jadi dari disarankan tambah dari --give item weapon part per karakter.
-- unlock costume/gear sepertinya terkumpul semua di exchange > `gear 3rd anniversary gear` voucher. jadi ambil vouchernya dari --give juga. beberapa costume seperti aerith chocobo atau zack swimsuit excange dari event.
-- weapon event juga terkumpul di event sephiroth terbaru. jadi ambil `sephiroth certificate` dari --give item dan exchange di page event.
-- memoria tidak bisa drop dari melakukan event. Tapi masih bisa diambil dari exchange > medal > co-op medal (offline gak bisa co-op, juga dari opsi --give)
-- materia elemen dan ruin terkumpul di exchange > enhancement > 5* materia
-- menaikan level materia hanya bisa menggunakan materia lain.
-
-## Masalah belum ada triknya
-- tidak bisa memulai misi summon.
-- tidak bisa unlock TUNING, karakter rolestream meski semua misi terpenuhi. rolestream treenya masih bisa.
-- tidak bisa buka chocobo farm, stuck di loading stream.
-- `Umbral Sword` katanya hanya dari event login 1.5 anniversary dan selain dari itu, tidak tahu darimana lagi cara dapatnya.
 
 ## Apa lagi ya?
 seperti yang dibilang diawal saya bukan ahli. Jadi tidak akan bisa menanggapi issue. Maaf.

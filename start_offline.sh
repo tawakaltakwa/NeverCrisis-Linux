@@ -69,7 +69,7 @@ if [ "${CURRENT_EPOCH}" -gt "${EOS_LIMIT_EPOCH}" ]; then
     echo "[INFO] Membutuhkan hak akses sudo untuk memundurkan tanggal sementara ke 4 Okt 2026."
     echo "[INFO] (Tanggal akan otomatis dikembalikan ke normal saat game selesai dimainkan)."
     echo ""
-    if sudo timedatectl set-ntp false 2>/dev/null && sudo date -s "2026-10-04 12:00:00" 2>/dev/null; then
+    if sudo timedatectl set-ntp false 2>/dev/null && sudo date -s "2025-03-10 12:00:00" 2>/dev/null; then
         echo "[OK] Tanggal sistem berhasil diset sementara ke: $(date)"
         SYSTEM_DATE_MODIFIED=1
     else
