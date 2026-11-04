@@ -1,0 +1,82 @@
+# Everything else: gil, keys, stamina, item boxes, passes, Highwind.
+# id, English name. Give with --give item=ID=COUNT (see README.txt).
+#
+id	name
+1	Gil
+5	Dungeon Key
+9	Dungeon Key Voucher
+17002	Stamina Tonic
+20001	Boost Pass
+20002	SOLDIER Pass
+20004	Stamina Pass
+20005	Crystal Pass
+30001	Score Battle Key (2023-11-30)
+30002	Score Battle Key (2024-01-31)
+30003	Score Battle Key (2024-02-26)
+30004	Score Battle Key (2024-03-28)
+100030	Premium Draw Ticket
+100036	MH Crossover-Exclusive Premium Draw Ticket
+18100	Highwind Booster
+18003	Astrowind
+22001	Custom Box - Mythril
+22002	Custom Box - 4★ Weapon Enhance Materials
+22003	Custom Box - Weapon Parts (FF7)
+22004	Custom Box - Weapon Parts (CC & FS)
+22011	Custom Box - Wpn. LV Uncap
+22012	Custom Box - Astrowind & Mythril Ore
+22013	Custom Box - Wpn. LV Uncap II
+22014	Custom Box - Ever Crisis Academy Countdown
+22015	Custom Box - Ever Crisis Academy Vol. 1
+22016	Custom Box - Ever Crisis Academy Vol. 2
+22017	Custom Box - Select Square Weapon
+22018	Custom Box - FFVI Crossover Reawakened
+22019	Custom Box - DQ TACT Crossover
+22020	Custom Box - 5★ Synth Catalysts
+22021	Custom Box - 5★ Branding Stone
+22501	Lottery Box - Blue Crystals
+22502	Lottery Box - Character-Specific Weapon Parts
+22503	Lottery Box - Weapon Enhance Materials
+22504	Lottery Box - 300 Days Since Release
+22505	Lottery Box - Ramuh EX Arrival 5★ Weapon
+22506	Lottery Box - 1st Anniv. Countdown
+22507	Lottery Box - 1st Anniversary
+22508	Lottery Box - 9 Million DL Celebration
+22509	Lottery Box - Weapon Enhance Materials II
+22510	Lottery Box - 400 Days Since Release
+22511	Lottery Box - Double Summon Arrival 5★ Weapon
+22512	Lottery Box - 10 Million DL
+22514	Lottery Box - FINAL FANTASY VI Crossover
+22515	Lottery Box - Year-End 2024
+22516	Lottery Box - New Year 2025 Medals
+22517	Lottery Box - 500 Days Since Release
+22518	Lottery Box - FFVII REBIRTH Crossover
+22519	Lottery Box - 1.5 Year Anniversary Countdown
+22520	Lottery Box - 1.5 Year Anniversary
+22521	Lottery Box - 1.5 Year Anniversary Vol. 2
+22522	Lottery Box - FFVII EC Spring Vol. 1
+22523	Lottery Box - FFVII EC Spring Vol. 2
+22524	Lottery Box - FFVI Crossover 5★ Weapon
+22525	Lottery Box - 700 Days Since Release
+22526	Lottery Box - 2nd Anniversary
+22527	Lottery Box - 2nd Anniv. Countdown
+22528	Lottery Box - 2nd Anniversary Vol. 2
+22529	Lottery Box - FFXIII Series Crossover Countdown
+22530	Lottery Box - 800 Days Since Release
+22531	Lottery Box - Black Friday
+22532	Lottery Box - FFVII EC Winter
+22533	New Year 2026 Lucky Bag Vol. 1
+22534	New Year 2026 Lucky Bag Vol. 2
+22535	New Year 2026 Lucky Bag Vol. 3
+22536	New Year 2026 Lucky Bag Vol. 4
+22537	New Year 2026 Lucky Bag Vol. 5
+22538	New Year 2026 Lucky Bag Vol. 6
+22539	New Year 2026 Lucky Bag Vol. 7
+22540	Lottery Box - 900 Days Since Release
+300061	Custom Box - FFXIII Series Crossover Weapon
+300066	Custom Box - 2B Incursion Event Weapon
+2030184	Lottery Box - Holiday Version
+99001	Red Crystal
+99002	Blue Crystal
+99003	Unlock Ifrit's Summon Stream
+99005	Item Gathering Level Up
+99006	Unlock Event Story

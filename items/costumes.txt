@@ -1,0 +1,220 @@
+# Costumes: id, character, English name. Give with --give costume=ID (see README.txt).
+#
+id	character	name
+1001	Cloud	Ex-SOLDIER: First Class
+1002	Cloud	Murasame Battle Garb
+1003	Cloud	Battlefiend Garb
+1004	Cloud	Maritime Sailor
+1005	Cloud	Rider Style
+1006	Cloud	Mystic Coat
+1007	Cloud	Bandaged Coat
+1008	Cloud	Official Festive Garb
+1009	Cloud	Zidane's Outfit
+1010	Cloud	Saber Style
+1011	Cloud	Glavenus Armor
+1012	Cloud	Bahamut Garb
+1013	Cloud	Locke's Outfit
+1014	Cloud	Holiday Outfit
+1016	Cloud	Classic Dress
+1017	Cloud	New Year's Battle Garb
+1018	Cloud	Erdrick's Armour
+1019	Cloud	AC Mode
+1020	Cloud	Equilibrium
+1021	Cloud	Scanner Ensemble
+1022	Cloud	The Sable
+1023	Cloud	Planet's Keeper
+1024	Cloud	Polygon Cloud
+2001	Barret	Avalanche Leader
+2002	Barret	Fiery Cape
+2003	Barret	Electroarmor
+2004	Barret	Scrap Armor
+2006	Barret	Sunrise Hakama
+2007	Barret	Dragon King Varvados
+2008	Barret	Seventh High Athletic Gear
+2009	Barret	Sidekick Style
+3001	Tifa	Seventh Heaven Bartender
+3002	Tifa	Metalfoot
+3003	Tifa	Zangan Gi
+3004	Tifa	Lifeguard
+3006	Tifa	Feather Style
+3008	Tifa	Rider Jacket
+3009	Tifa	Fairy of the Holy Flame
+3010	Tifa	Amarant's Guise
+3011	Tifa	Bunny Bustier
+3012	Tifa	Guide Uniform
+3013	Tifa	Kirin Suit
+3014	Tifa	Passion Mermaid
+3015	Tifa	Bahamut Suit
+3016	Tifa	Sabin's Style
+3017	Tifa	Festive Blue Daffodil Attire
+3018	Tifa	Armor of the Worthy
+3019	Tifa	Elegant Dress
+3020	Tifa	Shining Spirit Beachwear
+3021	Tifa	Seventh High School Uniform
+3022	Tifa	AC Style
+3023	Tifa	Guardian Corps Uniform (Tifa)
+3024	Tifa	Battler Ensemble
+3025	Tifa	Festive Style
+3026	Tifa	Golden Flower Kimono
+3027	Tifa	Zangan's Initiate
+4001	Aerith	The Slums' Flower Girl
+4002	Aerith	Prism Dress
+4003	Aerith	Rosy Battle Suit
+4004	Aerith	Sunny Robe
+4005	Aerith	Floral Gown
+4006	Aerith	Sylvan Style
+4007	Aerith	Fairy of Snowfall
+4008	Aerith	Chocobo Suit
+4009	Aerith	Garnet's Gown
+4010	Aerith	Classic Coney
+4011	Aerith	Kamura Dress
+4012	Aerith	Citric Dress
+4013	Aerith	Bahamut Robe
+4014	Aerith	Terra's Garb
+4015	Aerith	Festive Crimson Attire
+4016	Aerith	Loveless Songstress
+4017	Aerith	Gorgeous Dress
+4018	Aerith	Pink Mermaid Beachwear
+4019	Aerith	Supreme Sage Garb
+4020	Aerith	Seventh High Team Cetra Uniform
+4021	Aerith	Guardian Corps Uniform (Aerith)
+4022	Aerith	Garb of the Possessed
+4023	Aerith	Festive Dress
+4025	Aerith	Ancient Festival Garb
+5001	Red XIII	Hojo's Specimen
+5002	Red XIII	Rubber Harness
+5003	Red XIII	Canyon Duds
+5004	Red XIII	Pilot's Jacket
+5005	Red XIII	Seaside Aloha
+5006	Red XIII	The Hellhound
+5007	Red XIII	Pirate Navigator
+5008	Red XIII	Great Sabrecat
+5009	Red XIII	Patissier Outfit
+5010	Red XIII	Super Sleuth Cape
+6001	Yuffie	Amazing Materia Hunter
+6002	Yuffie	Shinobi Hawk
+6003	Yuffie	Puckish Lion
+6004	Yuffie	Sparkling Skater
+6005	Yuffie	Winter Moogle
+6006	Yuffie	Nanaki Mantle
+6008	Yuffie	Summer Moogle
+6009	Yuffie	Bahamut Mantle
+6010	Yuffie	Holiday Cheer Reindeer
+6011	Yuffie	Wutai's Idol
+6012	Yuffie	Bunny Apron
+6013	Yuffie	Rocker Outfit
+6014	Yuffie	AC Outfit
+6015	Yuffie	Savior Ensemble
+6016	Yuffie	Heirloom Kimono
+6017	Yuffie	Moogle Hat & Cape
+6019	Yuffie	Festival Moogle
+7001	Cait Sith	Self-Professed Fortune-Teller
+7002	Cait Sith	Marching Jacket
+7003	Cait Sith	Nocturne Jacket
+7005	Cait Sith	Cool Cat's Jacket
+7006	Cait Sith	Pumpkin Jacket
+7008	Cait Sith	Party Jacket
+7009	Cait Sith	Felyne Kamura Garb
+7010	Cait Sith	Ex-paw-dition Shirt
+8001	Vincent	Mournful Former Turk
+8002	Vincent	Bouncer Suit
+8003	Vincent	Stray Dog
+8004	Vincent	Devil Gunner's Coat
+8005	Vincent	Formal Attire
+8006	Vincent	Crowmaster Suit
+8007	Vincent	Holiday Formal Wear
+8008	Vincent	Coat of the Worthy
+8009	Vincent	Galian Beast Mantle
+8010	Vincent	Auditing Uniform
+8011	Vincent	Chaos
+8012	Vincent	Demonface Yukata
+9001	Cid	Sky-Loving Pilot
+9002	Cid	Flying Captain
+9003	Cid	Astronaut
+9004	Cid	Dark Flyer
+9006	Cid	Holidays Attire
+9007	Cid	Patissier Frock
+20001	Zack	SOLDIER: Second Class Future Hero
+20002	Zack	SOLDIER: First Class Future Hero
+20004	Zack	Valiant Suit
+20005	Zack	Shinra Full Dress Uniform
+20006	Zack	Tropical Beach
+20007	Zack	Heavy Shield Armor
+20008	Zack	Glacier Armor
+20009	Zack	Holiday Suit
+20010	Zack	Black Hound
+20011	Zack	Guardian Style
+20012	Zack	Zinogre Armor
+20013	Zack	Rabbit Butler
+20014	Zack	Zenithian Armour
+20015	Zack	Surfer Look
+20016	Zack	Festive Jacket
+20018	Zack	Off-Road Jacket
+20019	Zack	Polygon Zack
+49001	Sephiroth	Shinra's Hero
+49002	Sephiroth	Edged Wings Training Garb
+49003	Sephiroth	Natant Jacket
+49004	Sephiroth	Shinra Formal Uniform
+49005	Sephiroth	Aeroglider
+49006	Sephiroth	Dark Harbinger
+49007	Sephiroth	Celebratory Garb
+49008	Sephiroth	Kuja's Attire
+49009	Sephiroth	Lethal Style
+49010	Sephiroth	Dark Attire
+49011	Sephiroth	Edgar's Attire
+49012	Sephiroth	Cape of the Worthy
+49013	Sephiroth	Custom Suit
+49014	Sephiroth	Banesword Style
+49015	Sephiroth	Remnant Suit
+49017	Sephiroth	Knight of Etro
+49018	Sephiroth	Garb of the World-Ender
+49019	Sephiroth	Cirrus Hakama
+49020	Sephiroth	The Immaculate
+49021	Sephiroth	Infiltration Style
+50001	Glenn	Unprecedented P0 SOLDIER
+50002	Glenn	Cake Breaker
+50003	Glenn	Doom Dodger
+50004	Glenn	Pirate Captain
+50005	Glenn	Training Garb of Ruin
+50006	Glenn	Pumpkinmare
+50007	Glenn	Vanguard Style
+50008	Glenn	Desperado Mantle
+50009	Glenn	Snow Style
+50010	Glenn	Patissier Style
+50011	Glenn	Garish Hakama
+51001	Matt	Intellectual P0 SOLDIER
+51002	Matt	Elite Uniform
+51003	Matt	Killer Attire
+51004	Matt	Aidman's White Coat
+51005	Matt	Professor
+51006	Matt	Dark Night Robe
+51007	Matt	Holiday Helper
+51008	Matt	Physician's Hakama
+51009	Matt	Desperado Style
+52001	Lucia	Disciplined P0 SOLDIER
+52002	Lucia	Black Stealth
+52004	Lucia	Entrapment Gown
+52005	Lucia	Marksqueen
+52006	Lucia	Holiday Coat
+52007	Lucia	Vivi's Garb
+52008	Lucia	Gothic Bunny
+52009	Lucia	Beach Agent
+52010	Lucia	Dealer's Tailcoat
+52011	Lucia	Shinra Ceremonial Uniform
+52012	Lucia	Desperado Chic
+56001	Angeal	Genial SOLDIER: Second Class
+56002	Angeal	Shinra Expedition Wear
+56003	Angeal	Honorable Training Garb
+56004	Angeal	Cyan's Attire
+56005	Angeal	Garb of the Worthy
+56006	Angeal	Resort Style
+56008	Angeal	Ghost Robe
+56009	Angeal	Festive Suit
+60001	Sephiroth (Original)	Ruler of the Planet
+60002	Sephiroth (Original)	One with the Blade
+60003	Sephiroth (Original)	Corruptor of the Planet
+60004	Sephiroth (Original)	Conqueror of the Planet
+60005	Sephiroth (Original)	Omega Style
+60007	Sephiroth (Original)	Planet's Chosen
+60008	Sephiroth (Original)	Polygon Sephiroth
+60009	Sephiroth (Original)	Executioner

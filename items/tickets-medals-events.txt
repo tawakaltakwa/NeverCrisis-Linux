@@ -1,0 +1,458 @@
+# Draw tickets, medals, vouchers and event exchange items.
+# id, English name. Give with --give item=ID=COUNT (see README.txt).
+#
+id	name
+12	Crisis Medal
+13	Co-op Medal
+14	Weapon Medal
+17	Victory Draw Ticket (Sephiroth - The Arrival, Oct 2023)
+18	Silver Victory Draw Ticket (Sephiroth - The Arrival, Oct 2023)
+19	Gold Victory Draw Ticket (Sephiroth - The Arrival, Oct 2023)
+20	Huge Mega Watermelon (Beach Festival Fun!, Sep 2023)
+21	Gear Voucher
+22	5★ Weapon Voucher
+24	Yellow Mega Watermelon (Beach Festival Fun!, Sep 2023)
+25	Memory Voucher
+26	Summon's Memory Voucher
+27	Lifesaver (Beach Festival Fun!, Sep 2023)
+28	Gingerbread Cookie
+29	Green Gift-Wrapped Box
+30	Dorky Lantern
+31	Doltish Lantern
+32	Pumpkin Candy
+33	Victory Draw Ticket (Iron Giant Hunt, Oct 2023)
+34	Silver Victory Draw Ticket (Iron Giant Hunt, Oct 2023)
+35	Gold Victory Draw Ticket (Iron Giant Hunt, Oct 2023)
+36	Black Feather (A Resonant Waltz, Nov 2023)
+37	Peridot (A Resonant Waltz, Nov 2023)
+38	Aquamarine (A Resonant Waltz, Nov 2023)
+39	Victory Draw Ticket (Hell House Hunt, Dec 2023)
+40	Silver Victory Draw Ticket (Hell House Hunt, Dec 2023)
+41	Gold Victory Draw Ticket (Hell House Hunt, Dec 2023)
+42	Red Gift-Wrapped Box
+43	Brush of Resolutions
+44	Gold Scale
+45	Silver Scale
+48	Vengeance Medal (Clash of Vengeance, Dec 2023)
+49	Guild Medal
+50	Rare Guild Medal
+52	Minor Guild Medal
+53	Enemy Ability Memory Voucher
+54	Rare Weapon Medal
+38081	Conversion Branding Stone Fragment
+100001	Draw Ticket
+100002	4★+ Wpn. Guaranteed Draw Ticket
+100003	5★ Wpn. Guaranteed Draw Ticket
+100004	Cloud Wpn. Guaranteed Draw Ticket
+100005	Barret Wpn. Guaranteed Draw Ticket
+100006	Tifa Wpn. Guaranteed Draw Ticket
+100007	Aerith Wpn. Guaranteed Draw Ticket
+100008	Red XIII Wpn. Guaranteed Draw Ticket
+100009	Zack Wpn. Guaranteed Draw Ticket
+100010	Glenn Wpn. Guaranteed Draw Ticket
+100011	Matt Wpn. Guaranteed Draw Ticket
+100012	Lucia Wpn. Guaranteed Draw Ticket
+100013	FS Wpn. Guaranteed Draw Ticket
+100014	Cloud 5★ Wpn. Guaranteed Draw Ticket
+100015	Barret 5★ Wpn. Guaranteed Draw Ticket
+100016	Tifa 5★ Wpn. Guaranteed Draw Ticket
+100017	Aerith 5★ Wpn. Guaranteed Draw Ticket
+100018	Red XIII 5★ Wpn. Guaranteed Draw Ticket
+100019	Zack 5★ Wpn. Guaranteed Draw Ticket
+100020	FS 5★ Wpn. Guaranteed Draw Ticket
+100021	Glenn 5★ Wpn. Guaranteed Draw Ticket
+100022	Matt 5★ Wpn. Guaranteed Draw Ticket
+100023	Lucia 5★ Wpn. Guaranteed Draw Ticket
+100024	Sephiroth Wpn. Guaranteed Draw Ticket
+100025	Sephiroth 5★ Wpn. Guaranteed Draw Ticket
+100026	FFVII & CC 5★ Wpn. Guaranteed Draw Ticket
+100027	Yuffie Wpn. Guaranteed Draw Ticket
+100028	Yuffie 5★ Wpn. Guaranteed Draw Ticket
+100029	New Year 5★ Weapon Guaranteed Draw Ticket
+100032	Valentine's 5★ Wpn. Guaranteed Draw Ticket
+100033	Cait Sith Wpn. Guaranteed Draw Ticket
+100034	Cait Sith 5★ Wpn. Guaranteed Draw Ticket
+100035	Event Weapon Draw Ticket
+100037	Special 5★ Weapon Voucher
+100038	Special 5★ Weapon Voucher Vol. 2
+100039	Vincent Wpn. Guaranteed Draw Ticket
+100040	Vincent 5★ Wpn. Guaranteed Draw Ticket
+100041	Angeal Wpn. Guaranteed Draw Ticket
+100042	Angeal 5★ Wpn. Guaranteed Draw Ticket
+100043	FFVI Crossover 4★+ Guaranteed Draw Ticket
+100044	Cid Wpn. Guaranteed Draw Ticket
+100045	Cid 5★ Wpn. Guaranteed Draw Ticket
+100046	New Year Limit Break Special Draw Ticket
+100047	New Year 2025 Draw Ticket
+100048	New Year 2025 Weapon Voucher
+100049	1.5 Year Anniversary Draw Ticket
+100050	Reawakened: Limit Break Medal Fragment
+100051	Reawakened: Limit Break Medal
+100054	11 Million DL Gear Medal
+100056	Sephiroth (Original) Wpn. Guaranteed Draw Ticket
+100057	Sephiroth (Original) 5★ Wpn. Guaranteed Draw Ticket
+100058	DQ TACT Crossover Special Draw Ticket
+100059	Rouse Medal
+100060	2nd Anniversary Draw Ticket
+100061	2nd Anniversary Draw Ticket Vol. 2
+100062	2.5 Year Anniv. Draw Ticket
+100063	2.5 Year Anniv. LB Medal
+300001	Winter Medal (2023)
+300002	Ultimate Medal
+300004	1st Anniv. Gear Voucher
+300005	Pumpkin Fest Gear Voucher Vol. 1
+300006	Pumpkin Fest Gear Voucher Vol. 2
+300007	Weapon Parts Voucher
+300008	Winter Gear Voucher Vol. 1
+300009	Winter Gear Voucher Vol. 2
+300010	Winter Gear Voucher Vol. 3
+300011	Winter Gear Voucher Vol. 4
+300012	New Year 2025 Medal
+300013	Escalation Medal
+300014	New Year 2025 Gear Voucher
+300015	FFVII REBIRTH Crossover Gear Voucher Vol. 1
+300016	FFVII REBIRTH Crossover Gear Voucher Vol. 2
+300017	FFVII REBIRTH Crossover Countdown Medal
+300018	Crossover Celeb. Red XIII 5★ Wpn. Voucher
+300019	Crossover Celeb. Barret 5★ Wpn. Voucher
+300020	Returning Limit Break Gear Voucher
+300021	Valentine's Gear Voucher
+300022	Returning Limit Break Gear Voucher Vol. 2
+300023	1.5 Year Anniversary Gear Voucher
+300024	Egg Hunt Gear Voucher Vol. 1
+300025	Egg Hunt Gear Voucher Vol. 2
+300026	Egg Hunt Gear Voucher Vol. 3
+300028	Memoria Medal
+300029	Returning LB Gear Voucher (Beginners)
+300030	FFVI Crossover Reawakened Gear Voucher
+300031	FFVII REBIRTH Crossover Gear Voucher
+300032	Swimwear Voucher Vol. 1
+300033	DQ TACT Crossover Countdown Medal
+300035	Swimwear Voucher Vol. 2
+300036	Swimwear Voucher Vol. 3
+300037	DQ TACT Crossover Wpn. Voucher Vol. 1
+300038	DQ TACT Crossover Wpn. Voucher Vol. 2
+300039	Reawakened LB Gear Voucher Vol. 2 (Bgn.)
+300040	Reawakened LB Gear Voucher Vol. 3
+300041	Reawakened LB Gear Voucher Vol. 4
+300042	Reawakened LB & Summer Voucher Vol. 1
+300043	Reawakened LB & Summer Voucher Vol. 2
+300044	2nd Anniv. Gear Voucher
+300045	2nd Anniversary Medal
+300046	2nd Anniversary Medal Vol. 2
+300047	2nd Anniv. New Wpn. Voucher Vol. 1
+300048	2nd Anniv. New Wpn. Voucher Vol. 2
+300049	Reawakened LB Gear Voucher Vol. 5
+300050	Reawakened LB Wpn. Voucher
+300051	FS Side Story Support Gear Medal
+300052	Reawakened LB Gear Voucher Vol. 6
+300053	Reawakened LB Gear Voucher Vol. 7
+300054	Desperado Gear Voucher Vol. 1
+300055	Desperado Gear Voucher Vol. 2
+300056	Desperado Gear Voucher Vol. 3
+300057	FFXIII Series Crossover New Wpn. Voucher Vol. 1
+300058	FFXIII Series Crossover New Wpn. Voucher Vol. 2
+300059	FFXIII Series Crossover Countdown Medal
+300060	FFXIII Series Crossover Weapon Medal
+300062	2B Incursion Crossover Wpn. Voucher Vol. 1
+300063	2B Incursion Crossover Wpn. Voucher Vol. 2
+300064	2B Incursion Event Wpn. Exchange Medal
+300065	Reawakened LB Gear Voucher Vol. 8
+300067	New Year 2026 New Wpn. Voucher
+300068	New Year 2026 Medal
+300069	Holidays Attire Voucher
+300070	Winter Gear Voucher Vol. 5
+300071	Reawakened Gear Voucher Vol. 1
+300072	DC Event Gear Medal
+300073	Reawakened LB Gear Voucher Vol. 9
+300074	Auditing Uniform Voucher
+300075	Reawakened LB Gear Voucher Vol. 10
+300076	Moogle Hat & Cape Voucher
+300077	2.5 Year Anniv. New Wpn. Voucher
+300078	Reawakened LB Gear Voucher Vol. 11
+300079	2.5 Year Anniv. Gear Voucher
+300080	2.5 Year Anniv. Medal
+300081	DC Event Chapter 2 Gear Medal
+300082	The Immaculate Voucher
+300083	Ever Crisis Academy Gear Voucher
+300084	The Sable Voucher
+300085	FFXIII Series Crossover Wpn. Voucher
+300086	Physician's Hakama Voucher
+300087	FFXIII Series Crossover Gear Voucher
+300088	FFVII REBIRTH Crossover Wpn. Voucher
+300089	Gorgeous Dress Voucher
+300090	Elegant Dress Voucher
+300091	REBIRTH Crossover Gear Voucher
+300092	Classic Dress Voucher
+300093	Chaos Voucher
+300094	Omega Style Voucher
+300095	1000 Days Gear Medal
+300096	1000 Days Gear Voucher
+300097	Rider Jacket Voucher
+300098	Festival of Gratitude Medal
+300099	Festival of Gratitude Gear Voucher
+300100	Reawakened FFVII EC Summer Gear Voucher
+300101	3rd Anniv. Gear Voucher
+300102	Festival of Gratitude Crossover Gear Voucher
+2020051	Victory Draw Ticket (Reawakened: Sephiroth - The Arrival, Jan 2024)
+2020052	Silver Victory Draw Ticket (Reawakened: Sephiroth - The Arrival, Jan 2024)
+2020053	Gold Victory Draw Ticket (Reawakened: Sephiroth - The Arrival, Jan 2024)
+2020061	Victory Draw Ticket (The Turks' A-Team, Apr 2024)
+2020062	Silver Victory Draw Ticket (The Turks' A-Team, Apr 2024)
+2020063	Gold Victory Draw Ticket (The Turks' A-Team, Apr 2024)
+2020071	Victory Draw Ticket (Gallonbaloir Humus Hunt, May 2024)
+2020072	Silver Victory Draw Ticket (Gallonbaloir Humus Hunt, May 2024)
+2020073	Gold Victory Draw Ticket (Gallonbaloir Humus Hunt, May 2024)
+2020081	Victory Draw Ticket (Blitzrad Hunt, Jun 2024)
+2020082	Silver Victory Draw Ticket (Blitzrad Hunt, Jun 2024)
+2020083	Gold Victory Draw Ticket (Blitzrad Hunt, Jun 2024)
+2020091	Victory Draw Ticket (Reawakened: Hell House, Jul 2024)
+2020092	Silver Victory Draw Ticket (Reawakened: Hell House, Jul 2024)
+2020093	Gold Victory Draw Ticket (Reawakened: Hell House, Jul 2024)
+2020101	Victory Draw Ticket (Behemoth Steward Hunt, Aug 2024)
+2020102	Silver Victory Draw Ticket (Behemoth Steward Hunt, Aug 2024)
+2020103	Gold Victory Draw Ticket (Behemoth Steward Hunt, Aug 2024)
+2020121	Victory Draw Ticket (Rhad N'akiu Hunt, Oct 2024)
+2020122	Silver Victory Draw Ticket (Rhad N'akiu Hunt, Oct 2024)
+2020123	Gold Victory Draw Ticket (Rhad N'akiu Hunt, Oct 2024)
+2020131	Victory Draw Ticket (Eligor Hunt, Nov 2024)
+2020132	Silver Victory Draw Ticket (Eligor Hunt, Nov 2024)
+2020133	Gold Victory Draw Ticket (Eligor Hunt, Nov 2024)
+2020141	Victory Draw Ticket (Reawakened: The Turks' A-Team, Dec 2024)
+2020142	Silver Victory Draw Ticket (Reawakened: The Turks' A-Team, Dec 2024)
+2020143	Gold Victory Draw Ticket (Reawakened: The Turks' A-Team, Dec 2024)
+2020151	Victory Draw Ticket (Reawakened: Sephiroth - The Arrival, Dec 2024)
+2020153	Gold Victory Draw Ticket (Reawakened: Sephiroth - The Arrival, Dec 2024)
+2020161	Victory Draw Ticket (Stilva Hunt, Jan 2025)
+2020162	Silver Victory Draw Ticket (Stilva Hunt, Jan 2025)
+2020163	Gold Victory Draw Ticket (Stilva Hunt, Jan 2025)
+2020171	Victory Draw Ticket (Reawakened: Gallonbaloir Humus Hunt, Feb 2025)
+2020172	Silver Victory Draw Ticket (Reawakened: Gallonbaloir Humus Hunt, Feb 2025)
+2020173	Gold Victory Draw Ticket (Reawakened: Gallonbaloir Humus Hunt, Feb 2025)
+2020181	Victory Draw Ticket (Rufus Showdown, Mar 2025)
+2020182	Silver Victory Draw Ticket (Rufus Showdown, Mar 2025)
+2020183	Gold Victory Draw Ticket (Rufus Showdown, Mar 2025)
+2020191	Victory Draw Ticket (Masamune Hunt, Apr 2025)
+2020192	Silver Victory Draw Ticket (Masamune Hunt, Apr 2025)
+2020193	Gold Victory Draw Ticket (Masamune Hunt, Apr 2025)
+2020201	Victory Draw Ticket (Reawakened: Blitzrad Hunt, May 2025)
+2020202	Silver Victory Draw Ticket (Reawakened: Blitzrad Hunt, May 2025)
+2020203	Gold Victory Draw Ticket (Reawakened: Blitzrad Hunt, May 2025)
+2020221	Victory Draw Ticket (Beach Time Yuffie Showdown, Jul 2025)
+2020222	Silver Victory Draw Ticket (Beach Time Yuffie Showdown, Jul 2025)
+2020223	Gold Victory Draw Ticket (Beach Time Yuffie Showdown, Jul 2025)
+2020231	Victory Draw Ticket (Reawakened: Rhad N'akiu Hunt, Aug 2025)
+2020232	Silver Victory Draw Ticket (Reawakened: Rhad N'akiu Hunt, Aug 2025)
+2020233	Gold Victory Draw Ticket (Reawakened: Rhad N'akiu Hunt, Aug 2025)
+2020241	Victory Draw Ticket (Blighted Spirit Hunt, Sep 2025)
+2020242	Silver Victory Draw Ticket (Blighted Spirit Hunt, Sep 2025)
+2020243	Gold Victory Draw Ticket (Blighted Spirit Hunt, Sep 2025)
+2020251	Victory Draw Ticket (Reawakened: Eligor Hunt, Oct 2025)
+2020252	Silver Victory Draw Ticket (Reawakened: Eligor Hunt, Oct 2025)
+2020253	Gold Victory Draw Ticket (Reawakened: Eligor Hunt, Oct 2025)
+2020261	Victory Draw Ticket (Reawakened: Stilva Hunt, Nov 2025)
+2020262	Silver Victory Draw Ticket (Reawakened: Stilva Hunt, Nov 2025)
+2020263	Gold Victory Draw Ticket (Reawakened: Stilva Hunt, Nov 2025)
+2020271	Victory Draw Ticket (Master Tonberry Hunt, Dec 2025)
+2020272	Silver Victory Draw Ticket (Master Tonberry Hunt, Dec 2025)
+2020273	Gold Victory Draw Ticket (Master Tonberry Hunt, Dec 2025)
+2020281	Victory Draw Ticket (Reawakened: Rufus Showdown, Jan 2026)
+2020282	Silver Victory Draw Ticket (Reawakened: Rufus Showdown, Jan 2026)
+2020283	Gold Victory Draw Ticket (Reawakened: Rufus Showdown, Jan 2026)
+2020291	Victory Draw Ticket (Reawakened: Masamune Hunt, Feb 2026)
+2020292	Silver Victory Draw Ticket (Reawakened: Masamune Hunt, Feb 2026)
+2020293	Gold Victory Draw Ticket (Reawakened: Masamune Hunt, Feb 2026)
+2020301	Victory Draw Ticket (Great Hunt: Weapon Majeure, Mar 2026)
+2020302	Silver Victory Draw Ticket (Great Hunt: Weapon Majeure, Mar 2026)
+2020303	Gold Victory Draw Ticket (Great Hunt: Weapon Majeure, Mar 2026)
+2020321	Victory Draw Ticket (Revenant Mother Alissa Hunt, Apr 2026)
+2020322	Silver Victory Draw Ticket (Revenant Mother Alissa Hunt, Apr 2026)
+2020323	Gold Victory Draw Ticket (Revenant Mother Alissa Hunt, Apr 2026)
+2020331	Victory Draw Ticket (Reawakened: Behemoth Steward Hunt, May 2026)
+2020332	Silver Victory Draw Ticket (Reawakened: Behemoth Steward Hunt, May 2026)
+2020333	Gold Victory Draw Ticket (Reawakened: Behemoth Steward Hunt, May 2026)
+2020341	Victory Draw Ticket (Neo Bahamut Descends, Jun 2026)
+2020342	Silver Victory Draw Ticket (Neo Bahamut Descends, Jun 2026)
+2020343	Gold Victory Draw Ticket (Neo Bahamut Descends, Jun 2026)
+2020351	Victory Draw Ticket (Reawakened: Sephiroth - The Arrival, Jun 2026)
+2020352	Silver Victory Draw Ticket (Reawakened: Sephiroth - The Arrival, Jun 2026)
+2020353	Gold Victory Draw Ticket (Reawakened: Sephiroth - The Arrival, Jun 2026)
+2020361	Victory Draw Ticket (Reawakened: Weapon Majeure, Sep 2026)
+2020362	Silver Victory Draw Ticket (Reawakened: Weapon Majeure, Sep 2026)
+2020363	Gold Victory Draw Ticket (Reawakened: Weapon Majeure, Sep 2026)
+2030061	Charger's Horseshoe
+2030062	Golden Wheel
+2030063	Silver Wheel
+2030081	Golden Bomb Medal (Golden Bomb Rush, Jan 2024)
+2030082	Bomb Medal (Golden Bomb Rush, Jan 2024)
+2030091	Clear Fragment
+2030092	Red Seed
+2030093	Blue Seed
+2030101	Golden Bomb Medal (Reawakened: Golden Bomb Rush, May 2024)
+2030102	Bomb Medal (Reawakened: Golden Bomb Rush, May 2024)
+2030111	Starry Jelly
+2030112	Red Powder
+2030113	Blue Powder
+2030121	Headband
+2030122	Red Fireworks
+2030123	Blue Fireworks
+2030131	Black Feather (FFIX Crossover Reawakened, Aug 2024)
+2030132	Peridot (FFIX Crossover Reawakened, Aug 2024)
+2030133	Aquamarine (FFIX Crossover Reawakened, Aug 2024)
+2030141	Vengeance Medal (Clash of Vengeance 2, Aug 2024)
+2030151	Alba's Horn
+2030152	Alba's Claw
+2030153	Alba's Scale
+2030161	Loony Lantern
+2030162	Orange Macaron
+2030163	White Macaron
+2030164	1st Anniv. Event Weapon Medal
+2030171	Flashy Waistcloth (Cackling Court Mage Kefka, Oct 2024)
+2030172	White Feather Ornament (Cackling Court Mage Kefka, Oct 2024)
+2030173	Blue Feather Ornament (Cackling Court Mage Kefka, Oct 2024)
+2030174	Fire Magicite (Cackling Court Mage Kefka, Oct 2024)
+2030175	Ice Magicite (Cackling Court Mage Kefka, Oct 2024)
+2030176	Lightning Magicite (Cackling Court Mage Kefka, Oct 2024)
+2030181	Burnt Cookie
+2030182	Blue Gift-Wrapped Box
+2030183	Yellow Gift-Wrapped Box
+2030191	Golden Bomb Medal (Reawakened: Golden Bomb Rush, Oct 2024)
+2030192	Bomb Medal (Reawakened: Golden Bomb Rush, Oct 2024)
+2030201	Festive Fan
+2030202	Gold Bell
+2030203	Silver Bell
+2030204	Rare Enemy Medal (Happy New Year: Massive Mochi Mayhem, Dec 2024)
+2030221	Vengeance Medal (Clash of Vengeance 3, Dec 2024)
+2030231	Golden Rally Medal (Weapon Enhancement Rally Event, Dec 2024)
+2030232	Silver Rally Medal (Weapon Enhancement Rally Event, Dec 2024)
+2030241	Golden Rally Medal (Weapon Enhancement Rally Event, Feb 2025)
+2030242	Silver Rally Medal (Weapon Enhancement Rally Event, Feb 2025)
+2030251	Horns
+2030252	Silver Horseshoe
+2030253	Gold Horseshoe
+2030261	Flower Crown
+2030262	Pink Egg
+2030263	Green Egg
+2030271	School Bag
+2030272	Seventh High Pin
+2030273	Academy Pin
+2030281	Penance Tail
+2030282	Penance Wing
+2030283	Penance Shield
+2030291	Map Fragment
+2030292	Old Gold Coin
+2030293	Old Silver Coin
+2030301	Flashy Waistcloth (Reawakened: Cackling Court Mage Kefka, Jun 2025)
+2030302	White Feather Ornament (Reawakened: Cackling Court Mage Kefka, Jun 2025)
+2030303	Blue Feather Ornament (Reawakened: Cackling Court Mage Kefka, Jun 2025)
+2030304	Fire Magicite (Reawakened: Cackling Court Mage Kefka, Jun 2025)
+2030305	Ice Magicite (Reawakened: Cackling Court Mage Kefka, Jun 2025)
+2030306	Lightning Magicite (Reawakened: Cackling Court Mage Kefka, Jun 2025)
+2030307	Earth Magicite
+2030308	Water Magicite
+2030309	Wind Magicite
+2030311	DRAGON QUEST TACT Gold
+2030312	TACT Coin
+2030313	Master Coin
+2030314	Mini medal
+2030321	Golden Rally Medal (Weapon Enhancement Rally Event, Aug 2025)
+2030322	Silver Rally Medal (Weapon Enhancement Rally Event, Aug 2025)
+2030331	Trial of the Summons (Fury) Medal
+2030332	2nd Anniversary LB Wpn. Voucher
+2030341	Sephiroth (Original) 5★ Wpn. Voucher
+2030351	Gallonbaloir Patres Certificate
+2030352	Gallonbaloir Patres Certificate α
+2030353	Gallonbaloir Patres Certificate β
+2030361	Lightning's Cape (Flash of Destiny, Oct 2025)
+2030362	Feather of the White Chocobo (Flash of Destiny, Oct 2025)
+2030363	Rose Petals (Flash of Destiny, Oct 2025)
+2030371	Emil Mask
+2030372	Large Gear
+2030373	Black Pearl
+2030381	Kakuriyo-nushi Certificate
+2030382	Kakuriyo-nushi Certificate α
+2030383	Kakuriyo-nushi Certificate β
+2030384	Rare Enemy Medal (The Stallion of Good Fortune, Dec 2025)
+2030391	Arch Azul Certificate
+2030392	Arch Azul Certificate α
+2030393	Arch Azul Certificate β
+2030401	Ultima Weapon Majeure Certificate
+2030402	Ultima Weapon Majeure Certificate α
+2030403	Ultima Weapon Majeure Certificate β
+2030411	Nero the Sable Certificate
+2030412	Nero the Sable Certificate α
+2030413	Nero the Sable Certificate β
+2030414	Diagnostic Report
+2030415	Sample Data Chip C
+2030416	Sample Data Chip Z
+2030417	Sample Data Chip S
+2030421	Weiss the Immaculate Certificate
+2030422	Weiss the Immaculate Certificate α
+2030423	Weiss the Immaculate Certificate β
+2030431	Materia Hunt Medal (Materia Hunt, Dec 2025)
+2030451	Materia Hunt Medal (Materia Hunt, Feb 2026)
+2030461	Customization Medal
+2030471	Lightning's Cape (Reawakened: Flash of Destiny, Apr 2026)
+2030472	Feather of the White Chocobo (Reawakened: Flash of Destiny, Apr 2026)
+2030473	Rose Petals (Reawakened: Flash of Destiny, Apr 2026)
+2030481	Abzu Certificate
+2030482	Abzu Certificate α
+2030483	Abzu Certificate β
+2030491	Special Enhancement Materials Medal
+2030501	Huge Mega Watermelon (Reawakened: Beach Festival Fun!, Jun 2026)
+2030502	Yellow Mega Watermelon (Reawakened: Beach Festival Fun!, Jun 2026)
+2030503	Lifesaver (Reawakened: Beach Festival Fun!, Jun 2026)
+2030521	Blastuar Certificate
+2030522	Blastuar Certificate α
+2030523	Blastuar Certificate β
+2030531	Sephiroth Certificate
+2030532	Sephiroth Certificate α
+2030533	Sephiroth Certificate β
+2030534	Event 5★ Materia Voucher
+2030541	Materia Hunt Medal (Materia Hunt, Aug 2026)
+2080021	Heart Cookies
+2080022	White Box of Chocolates
+2080023	Pink Box of Chocolates
+2080031	Golden Rally Medal (Weapon Enhancement Rally Event, Feb 2024)
+2080032	Silver Rally Medal (Weapon Enhancement Rally Event, Feb 2024)
+2080041	Chocobo Egg
+2080042	Floral Egg
+2080043	Spotted Egg
+2110011	Moogle Medal
+2110012	Planet's Blessing
+2110013	Planet's Splendor
+2110021	Rathalos Shard
+2110022	Rathalos Mantle
+2110023	Proof of Defeat: Rathalos
+2110024	Silver Rathalos Shard
+2110025	Proof of Defeat: Silver Rathalos
+2110031	Gold Point
+2110032	Silver Cog
+2110033	Gold Cog
+2110034	Hellhound Medal
+2110035	Dragon King Medal
+2110041	One-Winged Angel Feather
+2110042	White Flower from the Church
+2110043	Yellow Flower from the Church
+2130011	Chaos of the Corrupted Weapon Voucher (Non-elemental)
+2130012	Chaos of the Corrupted Weapon Voucher (Fire)
+2130013	Chaos of the Corrupted Weapon Voucher (Ice)
+2130014	Chaos of the Corrupted Weapon Voucher (Lightning)
+2130015	Chaos of the Corrupted Weapon Voucher (Water)
+2130016	Chaos of the Corrupted Weapon Voucher (Wind)
+2130017	Chaos of the Corrupted Weapon Voucher (Earth)
+2130051	Rampage of Ruin Weapon Voucher (Non-elemental)
+2130052	Rampage of Ruin Weapon Voucher (Fire)
+2130053	Rampage of Ruin Weapon Voucher (Ice)
+2130054	Rampage of Ruin Weapon Voucher (Lightning)
+2130055	Rampage of Ruin Weapon Voucher (Water)
+2130056	Rampage of Ruin Weapon Voucher (Wind)
+2130057	Rampage of Ruin Weapon Voucher (Earth)
+2130058	Rampage of Ruin Weapon Voucher (LB)
+2130071	The First Clash Wpn. Voucher
+2130091	The Second Clash Wpn. Voucher
+2130101	The Third Clash Wpn. Voucher
+2130111	The Fourth Clash Wpn. Voucher
+2130121	The Fifth Clash Wpn. Voucher
+2130131	The Sixth Clash Wpn. Voucher
+2130141	Boss Rush Medal

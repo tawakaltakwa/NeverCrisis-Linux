@@ -1,0 +1,116 @@
+# Chocobo: expedition finds, medals, shortening.
+# id, English name. Give with --give item=ID=COUNT (see README.txt).
+#
+id	name
+15006	Chocobooster
+10	Chocobo Medal
+300003	Bahamut Chocobo Medal
+16001	Stamp Sticker
+16002	Stamp Keychain
+16003	Stamp Mug
+16004	Stamp Cap
+16005	Stamp Shirt
+16006	Stamp Parka
+16007	Cat Tin
+16008	Hardy-Daytona Model
+16009	Loveless Poster
+16010	Music Disc
+16011	Military Helmet
+16012	Shinra Recruitment Flyer
+16013	Corneo Doll
+16014	Floral Cologne
+16015	Model Train
+16016	License Plate
+16017	Shinra Button
+16018	Shinra Towel
+16019	Mandra Root
+16020	Large Chipped Fang
+16021	Herbivore Bone
+16022	Giant Serpent Scale
+16023	Snake Skin
+16024	Mythril Sand
+16025	Da-chao Beans
+16026	Happy Turtle Newsletter
+16027	Charm of Command
+16028	Training Kunai
+16029	Mini Da-chao Statue
+16030	Training Shuriken
+16034	Strange Fruit
+16035	Broken Propeller
+16036	Large Conch Shell
+16037	Baloir Claw
+16038	Rhadoran Starsand
+16039	Mural Piece
+16042	Dolphin Strap
+16043	Beach Sand
+16044	Whistle
+16045	1:35 Scale Shinra Trooper
+16046	Ceremonial Banner
+16047	Condor Statue
+16048	Coral Fragment
+16049	Seashell
+16050	Cargo Barrel
+16051	Corel Coal
+16052	Corel Gold Dust
+16053	Grappling Hook
+16054	Gold Balloon
+16055	Parade Fan
+16056	Fortune Paper
+16057	Colosseum Participation Prize
+16058	PLAY ARTS Sweeper
+16059	Dio's Autograph
+16060	Boots
+16061	Bandana
+16062	Gas Mask
+16063	Steel Drums
+16064	Rusted Fence
+16065	Broken Bottle
+16066	White Coral
+16067	Beach Ball
+16068	Oars
+16501	Yellow Midgar Flower
+16502	White Midgar Flower
+16503	Red Midgar Flower
+16504	Purple Midgar Flower
+16505	Blue Midgar Flower
+16506	Orange Midgar Flower
+16507	Yellow Grasslands Flower
+16508	White Grasslands Flower
+16510	White Wutai Flower
+16511	Yellow Wutai Flower
+16513	Yellow Rhadore Flower
+16514	White Rhadore Flower
+16519	Yellow Junon Flower
+16520	White Junon Flower
+16521	Red Junon Flower
+16522	Red Corel Flower
+16523	Pink Corel Flower
+16524	Orange Corel Flower
+16525	Yellow Corel Flower
+16526	Burgundy Gold Saucer Flower
+16527	Pale Pink Gold Saucer Flower
+16601	Chocobo Feather
+16602	Red Chocobo Feather
+16603	Blue Chocobo Feather
+16604	Green Chocobo Feather
+16605	Purple Chocobo Feather
+16606	Orange Chocobo Feather
+16607	Pink Chocobo Feather
+16608	Brown Chocobo Feather
+16609	Black Chocobo Feather
+16611	Pale Red Chocobo Feather
+16612	Pale Blue Chocobo Feather
+16613	Pale Green Chocobo Feather
+16614	Mauve Chocobo Feather
+16615	Peach Chocobo Feather
+16616	Beige Chocobo Feather
+16617	Green Lava Stone
+16618	Outpost Ashes
+16619	Long Chocobo Feather
+16620	Long Red Chocobo Feather
+16621	Long Blue Chocobo Feather
+16622	Long Green Chocobo Feather
+16623	Long Purple Chocobo Feather
+16624	Long Orange Chocobo Feather
+2110026	Monster Guts
+2110027	Coal

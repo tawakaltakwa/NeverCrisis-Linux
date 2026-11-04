@@ -1,0 +1,522 @@
+# Weapon parts and Mako Gems.
+# id, English name. Give with --give item=ID=COUNT (see README.txt).
+#
+id	name
+2	Parts
+23	Master Weapon Part
+1001	Cloud-Specific Weapon Part
+1002	Barret-Specific Weapon Part
+1003	Tifa-Specific Weapon Part
+1004	Aerith-Specific Weapon Part
+1005	Red XIII-Specific Weapon Part
+1006	Yuffie-Specific Weapon Part
+1007	Cait Sith-Specific Weapon Part
+1008	Vincent-Specific Weapon Part
+1009	Cid-Specific Weapon Part
+1020	Zack-Specific Weapon Part
+1049	Sephiroth-Specific Weapon Part
+1050	Glenn-Specific Weapon Part
+1051	Matt-Specific Weapon Part
+1052	Lucia-Specific Weapon Part
+1056	Angeal-Specific Weapon Part
+1060	Sephiroth (Original)-Specific Weapon Part
+1000001	Mako Gem (1st Anniv.)
+1000002	Mako Gem (FFVI)
+1000003	Mako Gem (11 Million DL)
+1000004	Mako Gem (FFVII REBIRTH)
+1000005	Mako Gem (2nd Anniv. Countdown)
+1000006	Mako Gem (2nd Anniv.)
+1000007	Mako Gem (2nd Anniv. Reawakened)
+1000008	Mako Gem (Reawakened Vol. 1)
+1000009	Mako Gem (Winter 2025)
+1000010	Mako Gem (2.5 Year Anniv.)
+1000011	Mako Gem (Special)
+1000012	Mako Gem (Festival of Gratitude)
+1001001	Buster Sword Parts
+1001002	Iron Blade Parts
+1001003	Hardedge Parts
+1001004	Mythril Saber Parts
+1001006	Butterfly Edge Parts
+1001007	Murasame Parts
+1001008	Organics Parts
+1001009	Crystal Sword Parts
+1001012	Enhance Sword Parts
+1001013	Nail Bat Parts
+1001015	Apocalypse Parts
+1001020	Maritime Sword Parts
+1001021	Full Throttle Parts
+1001022	Mystic Sword Parts
+1001024	Shiva's Blade Parts
+1001025	Bandaged Sword Parts
+1001028	Skysplitter Parts
+1001029	Zidane's Sword Parts
+1001030	Holiday Cheer Parts
+1001031	Stream Saber Parts
+1001032	Igneous Saber Parts
+1001033	Glavenus Sword Parts
+1001034	Rune Blade Parts
+1001035	Burning Oar Parts
+1001036	Bahamut Greatsword Parts
+1001038	Locke's Sword Parts
+1001039	Holiday Blade Parts
+1001040	Chocobo Paddle Parts
+1001042	Sleek Saber Parts
+1001043	Noble Parasol Parts
+1001044	Erdrick's Sword Parts
+1001045	Radblade Parts
+1001046	Umbral Blade Parts
+1001047	Mako Gem (Ragnarok)
+1001048	Fusion Sword Parts
+1001049	Crimson Blitz Parts
+1001050	Cruel Successor Parts
+1001051	Umbralschwert Parts
+1001052	Chevron Blade Parts
+1001053	Neo Bahamut Greatsword Parts
+1001054	Mako Gem (Blue Glitter)
+1001055	Salvation Sword Parts
+1002001	Gatling Gun Parts
+1002002	Assault Gun Parts
+1002007	Heavy Vulcan Parts
+1002008	Microlaser Parts
+1002010	W Machine Gun Parts
+1002011	Solid Bazooka Parts
+1002012	Enemy Launcher Parts
+1002013	Max Ray Parts
+1002015	Flame Projector Parts
+1002017	Electrocannon Parts
+1002018	Heavy Hauser Parts
+1002019	Lefko Kypseli Parts
+1002020	Rocket Punch Parts
+1002021	Sharkslayer Parts
+1002022	Shiva Cannon Parts
+1002024	Hell House Cannon Parts
+1002025	Siege Cannon Parts
+1002027	Leviathan Buster Parts
+1002029	Rhad Cannon Parts
+1002032	Escutcheon Cannon Parts
+1002033	Sunrise Cannon Parts
+1002035	Fafnir Rifle Parts
+1002036	Mako Gem (Missing Score)
+1002038	Teacher's Paper Fan Parts
+1002039	Hook Launcher Parts
+1002040	Quad Gatling Gun Parts
+1002042	Companion Arm Parts
+1002044	Mako Gem (Battle Cry)
+1003001	Leather Glove Parts
+1003002	Metal Knuckles Parts
+1003005	Grand Glove Parts
+1003006	Sonic Striker Parts
+1003007	Tiger Fang Parts
+1003010	Crystal Glove Parts
+1003011	Motor Drive Parts
+1003013	Kaiser Knuckle Parts
+1003014	Work Gloves Parts
+1003015	Powersoul Parts
+1003019	Lifeguard Wraps Parts
+1003020	Feathered Gloves Parts
+1003023	Riding Gloves Parts
+1003024	Bahamut Knuckles Parts
+1003025	Holy Flame Gloves Parts
+1003027	Amarant's Claws Parts
+1003028	Bunny Gloves Parts
+1003029	Oven Mitts Parts
+1003030	Turks' Gloves Parts
+1003031	Guide Gloves Parts
+1003032	Kirin Gloves Parts
+1003033	Shell Knuckles Parts
+1003034	Steward Gloves Parts
+1003035	Bahamut Fangs Parts
+1003036	Black Cat's Paws Parts
+1003038	Sabin's Claws Parts
+1003039	Blue Daffodil Gloves Parts
+1003040	Mako Gem (Premium Heart)
+1003041	Odin Gloves Parts
+1003042	Gauntlets of the Worthy Parts
+1003043	Járngreipr Parts
+1003044	Elegant Gloves Parts
+1003045	Penance Gloves Parts
+1003046	Shining Gloves Parts
+1003047	Class President's Bracelet Parts
+1003048	Striped Moogle Gloves Parts
+1003049	Leather Combat Gloves Parts
+1003050	Lightning's Gloves Parts
+1003051	Mako Gem (Dragon Claw)
+1003052	Demon's Impetus Parts
+1003053	Festive Gloves Parts
+1003055	Master's Knuckles Parts
+1004001	Guard Stick Parts
+1004002	Silver Staff Parts
+1004003	Striking Staff Parts
+1004004	Mythril Rod Parts
+1004005	Full Metal Staff Parts
+1004007	Prism Rod Parts
+1004008	Fairy Tale Parts
+1004009	Wizard Staff Parts
+1004010	Wizer Staff Parts
+1004014	Sun Umbrella Parts
+1004015	Floral Wand Parts
+1004016	Umbrella Parts
+1004017	Sylvan Guardian Parts
+1004018	Sea Dragon Staff Parts
+1004019	Chocobo Staff Parts
+1004020	Snowflake Parts
+1004021	Ramuh's Staff Parts
+1004022	Garnet's Rod Parts
+1004023	Egg Staff Parts
+1004024	Dawn's Prayers Parts
+1004025	Kamura Wand Parts
+1004026	Radrod Parts
+1004027	Hell House Rod Parts
+1004028	Citric Wand Parts
+1004029	Bahamut Rod Parts
+1004031	Terra's Rod Parts
+1004032	Titan Rod Parts
+1004033	Crimson Staff Parts
+1004034	Gambanteinn Parts
+1004035	Noblesse Rod Parts
+1004036	Mako Gem (Princess Guard)
+1004037	Gorgeous Staff Parts
+1004038	Mermaid Rod Parts
+1004039	Supreme Sage's Staff Parts
+1004040	Team Leader's Bamboo Sword Parts
+1004041	Magatsuchi Rod Parts
+1004042	Lightning's Rod Parts
+1004043	Staff of the Possessed Parts
+1004044	Mako Gem (Abraxas)
+1004045	Rousing Wizer Staff Parts
+1004046	Festive Rod Parts
+1004048	Cetra Relic Parts
+1005001	Sleek Collar Parts
+1005004	Silver Collar Parts
+1005005	Gold Collar Parts
+1005009	Platinum Collar Parts
+1005016	Noble Collar Parts
+1005017	Ivy Collar Parts
+1005018	Rage Collar Parts
+1005019	Leather Collar Parts
+1005020	Rubber Collar Parts
+1005021	Junk Collar Parts
+1005023	Canyon Collar Parts
+1005024	Pilot's Collar Parts
+1005026	Iron Collar Parts
+1005027	Headphones Parts
+1005028	Seaside Collar Parts
+1005031	Hell House Collar Parts
+1005032	Flame Dragon's Band Parts
+1005033	Egg Collar Parts
+1005034	Amethyst Collar Parts
+1005035	Steward Collar Parts
+1005037	Kefka's Collar Parts
+1005038	Brilliant Collar Parts
+1005040	Pirate Collar Parts
+1005041	Mako Gem (Limited Moon)
+1005042	Great Sabrecat Collar Parts
+1005043	Tsviet Collar Parts
+1005044	Patissier's Collar Parts
+1005045	Mako Gem (Brisingamen)
+1005046	Super Sleuth Collar Parts
+1006001	4-Point Shuriken Parts
+1006002	Boomerang Parts
+1006003	Pinwheel Parts
+1006004	Razor Ring Parts
+1006005	Hawkeye Parts
+1006006	Crystal Cross Parts
+1006007	Wind Slash Parts
+1006008	Twin Viper Parts
+1006009	Spiral Shuriken Parts
+1006010	Magic Shuriken Parts
+1006014	Diner Tray Parts
+1006015	Arctic Star Parts
+1006016	Bamboo Ring Parts
+1006019	Little Red Wreath Parts
+1006022	Chariot Wheel Parts
+1006024	Leviathan Cutter Parts
+1006026	Striped Moogle Float Parts
+1006027	Cactuar Fan Parts
+1006028	Bahamut Cutter Parts
+1006030	Holiday Bell Parts
+1006031	Mallet of Luck Parts
+1006032	Mako Gem (Conformer)
+1006033	Bird of Prey Parts
+1006034	Risanautr Parts
+1006035	Watch of the Hunt Parts
+1006036	Rocker's Guitar Parts
+1006037	Striped Moogle Flag Parts
+1006038	Uber 4-Point Shuriken Parts
+1006039	Fatum Ex Machina Parts
+1006040	Heirloom Brush Parts
+1006041	Winged Chakram Parts
+1006043	Mako Gem (Rising Sun)
+1006044	Abzu Cutter Parts
+1006046	Candy Apple Parts
+1007001	Yellow Megaphone Parts
+1007002	Green Megaphone Parts
+1007003	Blue Megaphone Parts
+1007004	Red Megaphone Parts
+1007005	Crystal Megaphone Parts
+1007008	Silver Megaphone Parts
+1007009	Gold Megaphone Parts
+1007010	Battle Trumpet Parts
+1007011	Trumpet Shell Parts
+1007014	Marching Horn Parts
+1007015	Nocturne Horn Parts
+1007017	Cool Cat's Megaphone Parts
+1007019	Witch's Broom Parts
+1007022	Flower Vase Parts
+1007023	Catsmegaphone Parts
+1007024	Humus Megaphone Parts
+1007025	Fireworks Megaphone Parts
+1007026	Alba Megaphone Parts
+1007027	Icebolt Megaphone Parts
+1007029	Quina Megaphone Parts
+1007031	Stilva Megaphone Parts
+1007032	Mako Gem (HP Shout)
+1007033	Spirit Demon Megaphone Parts
+1007035	Ex-paw-dition Megaphone Parts
+1007036	Sable Megaphone Parts
+1007037	Mako Gem (Starlight Phone)
+1008001	Transgressor Parts
+1008002	Cath Palug Parts
+1008003	Gilded Age Parts
+1008004	S1976C Parts
+1008005	Shortbarrel Parts
+1008007	T03 Model N Parts
+1008008	Sawed-Off GS Parts
+1008009	Chiron Parts
+1008010	Double Stem E Parts
+1008012	White Dog Parts
+1008013	Kugelblitz Parts
+1008014	Silver Rifle Parts
+1008015	Hugin & Munin Parts
+1008016	Crow Familiar Parts
+1008017	Quicksilver Parts
+1008018	Icebolt Shooter Parts
+1008020	Rhad Gun Parts
+1008021	Eligor Gun Parts
+1008022	Holiday Garm Parts
+1008023	Noblesse Automatic Parts
+1008024	Gun of the Worthy Parts
+1008025	Mako Gem (Death Penalty)
+1008026	Electro Peashooter Parts
+1008027	Galian Roar Parts
+1008029	Mako Gem (Fomalhaut)
+1008030	Chrome Death Penalty Parts
+1008031	Merciless White Parts
+1008032	Festival Pistol Parts
+1009001	Spear Parts
+1009002	Slash Lance Parts
+1009003	Trident Parts
+1009004	Pole Axe Parts
+1009005	Partisan Parts
+1009006	Viper Halberd Parts
+1009008	Radiant Lance Parts
+1009010	Dragoon Lance Parts
+1009011	Scimitar Parts
+1009012	Flayer Parts
+1009015	Rocket Lance Parts
+1009016	Mop Parts
+1009019	Odin Spear Parts
+1009020	Lance of the Hunt Parts
+1009024	Captain's Spear Parts
+1009025	Mako Gem (Venus Gospel)
+1009026	Antler Pike Parts
+1009028	Patissier's Spear Parts
+1009029	Festive Spear Parts
+1009030	Grinding Gear Parts
+1009031	Mythic Skipper Parts
+1020001	Type-99 Longsword Parts
+1020002	Buster Sword Origin Parts (Boost HP)
+1020003	Beach Parasol Parts
+1020004	Enhance Sword (Z) Parts
+1020005	Defender Parts
+1020006	Crystal Sword (Z) Parts
+1020007	Falchion Parts
+1020008	Zweihander Parts
+1020009	Arc Sword Parts
+1020010	Cutlass Parts
+1020011	Ceremonial Sword (Z) Parts
+1020012	Battering Sword Parts
+1020013	Bouquet Parts
+1020014	Pressure Ridge Parts
+1020015	Iron Greatsword Parts
+1020016	Ifrit's Sword Parts
+1020018	Twinkling Star Parts
+1020019	Black Whiskers Parts
+1020020	Stream Guard Parts
+1020023	Zinogre Blade Parts
+1020024	Carrot Sword Parts
+1020025	Alba Blade Parts
+1020027	Beatrix Sword Parts
+1020028	Mako Gem (Durandal)
+1020029	White Tree Parts
+1020031	Sword of the Hunt Parts
+1020032	Zenithian Sword Parts
+1020033	Buster Sword Origin Parts (Boost PDEF)
+1020034	Surfer Blade Parts
+1020035	Magatsuchi Blade Parts
+1020036	Virtuous Contract Parts
+1020037	Rousing Arc Sword Parts
+1020038	Festive Sword Parts
+1020039	Gelid Sword Parts
+1020041	Mako Gem (Divine Emissary)
+1020042	Wheel Edge Parts
+1049001	Nameless Parts
+1049002	Edged Wings Parts
+1049003	Glaireid Parts
+1049004	Aonibi Parts
+1049005	Northern Lights Parts
+1049006	Prototype Crimson Blade Parts
+1049007	CC Alloy Sword Parts
+1049008	Mythril Type-0 Katana Parts
+1049009	Shinra Blade: Model I Parts
+1049010	Tempest Parts
+1049011	Shinra Military Sword Parts
+1049012	Torn Wing Parts
+1049013	World Tree Bough Parts
+1049015	Dark Heavens Parts
+1049016	Kuja's Spirit Blade Parts
+1049017	Radiant Edge Parts
+1049018	Protector's Blade Parts
+1049019	Flame Dragon Blade Parts
+1049020	Ashura Parts
+1049022	Humus Saber Parts
+1049023	Shinra Wyvern Blade Parts
+1049024	Blue Bramble Parts
+1049027	Mako Gem (Genji Blade)
+1049028	Edgar's Coiled Blade Parts
+1049029	Wintercrest Blade Parts
+1049030	Blade of the Worthy Parts
+1049031	Withering Blaze Parts
+1049032	Serrated Remiges Parts
+1049033	Pandemonic Sword Parts
+1049034	Folding Ruler Parts
+1049035	Sōba Parts
+1049037	Overture Parts
+1049039	Phoenix Odachi Parts
+1049040	Cerulean Sky Parts
+1049041	Immaculate Blade Parts
+1049042	Mako Gem (Metsumato)
+1049043	Infiltration Sword Parts
+1050001	Personal Style Parts
+1050002	Crewkicker Parts
+1050003	Jiggy Fam Parts
+1050004	Hardcore Squad Parts
+1050005	Rest in Peace Parts
+1050006	Slay the Day Parts
+1050007	Ultimatic Parts
+1050008	Piece of Cake Parts
+1050010	Shockbuster Parts
+1050011	Apology in Hell Parts
+1050012	Pirate's Glaive Parts
+1050013	Blade of Ruin Parts
+1050014	Squeaky Hammer Parts
+1050015	Inferno Grave Parts
+1050016	Pumpkin Lamppost Parts
+1050018	Thousand Waves Parts
+1050019	Steiner's Blade Parts
+1050020	Stream Slasher Parts
+1050021	Best Wishes Parts
+1050022	Radglaive Parts
+1050023	Silver Sol Buster Parts
+1050026	Stilva Glaive Parts
+1050027	Mako Gem (Ogrekiller)
+1050029	Set Square Parts
+1050030	Desperado Glaive Parts
+1050031	Snow's Bardiche Parts
+1050032	Patissier's Glaive Parts
+1050033	Revenant Mother's Glaive Parts
+1050034	Garish Greatblade Parts
+1051001	Broadsword: Axis Parts
+1051002	Orthodox Raven Parts
+1051003	Absolute Royal Parts
+1051004	Prime Number Parts
+1051005	Espee Rapiere Next-G Parts
+1051006	Core Defender Parts
+1051007	Centipede Parts
+1051008	Stingray Parts
+1051009	Killer Hornet Parts
+1051010	Bramble Spine Parts
+1051012	Syringe Rapier Parts
+1051013	Foam Sword Parts
+1051015	Slick Beetle Parts
+1051016	Bahamut Rapier Parts
+1051017	Holiday Cane Parts
+1051018	Giant Fork Parts
+1051020	Humus Rapier Parts
+1051021	Nautilus Spiral Parts
+1051022	Firefish Parts
+1051023	Deroplatys Parts
+1051025	Candle Rapier Parts
+1051026	Luminary Sword Parts
+1051027	Hrotti Parts
+1051029	Mako Gem (Gladius)
+1051030	Physician's Scalpel Parts
+1051031	Dragontail Sword Parts
+1051032	Desperado Rapier Parts
+1052001	V39 Parts
+1052002	Pulse Gun Parts
+1052003	Serpent Eater Parts
+1052004	Thunderbird Parts
+1052005	Tranquilizer Gun Parts
+1052006	SSR1976 Parts
+1052007	Mad Minute Parts
+1052008	Killer Falcon Parts
+1052009	Bald Eagle Parts
+1052010	Black Rifle Parts
+1052013	Nightjar Parts
+1052014	Rubber Band Gun Parts
+1052015	Featherscatter Parts
+1052016	Barn Swallow Parts
+1052017	Pumpkin Blaster Parts
+1052019	Rifle of Levin Parts
+1052020	Holiday Revolver Parts
+1052021	Vivi's Magical Gun Parts
+1052022	Rose Musket Parts
+1052023	Turks' Rifle Parts
+1052025	Marine Shooter Parts
+1052027	Eligor Rifle Parts
+1052029	Rifle of the Hunt Parts
+1052030	Spirit Demon Rifle Parts
+1052031	Shinra Ceremonial Rifle Parts
+1052032	Mako Gem (Aldebaran)
+1052034	Desperado Rifle Parts
+1052036	Mako Gem (Total Eclipse)
+1056001	Type-90 Longsword Parts
+1056002	Greatsword (A) Parts
+1056003	Type-91 Two-Hander Parts
+1056004	Shinra Greatsword: Model I Parts
+1056005	CC Alloy Greatsword Parts
+1056006	Stalwart Integrity Parts
+1056007	Innocent Warrior Parts
+1056008	Gargantuan Monolith Parts
+1056009	Sequoiadendron Parts
+1056010	Tranquility Parts
+1056011	Orchard Shovel Parts
+1056013	Cyan's Blade Parts
+1056014	Mythril Slasher Parts
+1056015	Volcanic Heat Parts
+1056016	Titan Blade Parts
+1056017	Turks' Blade Parts
+1056019	Greatsword of the Worthy Parts
+1056020	Blade of the Hunt Parts
+1056021	Penance Blade Parts
+1056022	Inflatable Buster Sword Parts
+1056023	Rhad Blade Parts
+1056025	Mako Gem (Balmung)
+1056026	Ghost Ensis Parts
+1056027	Master Tonberry's Blade Parts
+1056028	Lightning's Sword Parts
+1056029	Sea Dragon Greatsword Parts
+1056030	Festive Blade Parts
+1056032	Festival Umbrella Parts
+1060001	Masamune Parts
+1060002	Shiranui Parts
+1060003	Osafune Parts
+1060004	Kotetsu Parts
+1060005	Kikuichimonji Parts
+1060007	Muramasa Parts
+1060008	Mako Gem (Heaven's Cloud)
+1060009	Divine Steed Blade Parts
+1060010	Starsoul Blade Parts
+1060012	Omega Wing Parts
+1060014	Kusanagi Parts

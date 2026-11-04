@@ -1,0 +1,177 @@
+# Home wallpapers: id, English name. Give with --give wallpaper=ID (see README.txt).
+#
+id	name
+1	Before the Mission
+2	Welcome!
+3	Team Glenn's First Mission
+10001	Someone to Count On
+10002	Four SOLDIERs of Shinra
+10003	Traces of Two Pasts
+10004	I never wanted to be.
+10005	New Year's Materia Hunter
+10006	Sweethearts' Chitchat
+10007	Time to Get to Work
+10009	Flower Petals in the Wind
+10010	I'm comin' with you, no matter what you say!
+10011	Path of a Hero
+10012	Beach Boxer
+10013	Say "Cheese"!
+10014	The Old Water Tower
+10015	So, We Meet Again
+10016	And Action!
+10017	A Path Divided
+10018	The Shinra Gang
+10019	With Lots of Love
+10020	A Tiny Little Wish
+10021	Shinra Chiaroscuro
+10022	Beneath the Famed Seventh High Tree
+10023	Leader, Ally, Friend
+10024	Dream Vacation
+10025	Inheritance of Dreams and Honor
+10026	Fated Showdown
+10027	Pumpkin Costume Party
+10028	The Power to Live Tomorrow
+10029	Holiday Party
+10030	Embrace Your Dreams
+10031	Heartfelt Gift
+10032	Voice from the Sleeping Forest
+10033	Chosen Bond
+10034	Nibel Reactor Survey Unit
+10035	At Cosmo Canyon
+10036	Beach Vacation
+10037	Dreams of Space
+10038	SOLDIERs Assemble
+20001	Murasame Battle Garb
+20002	Sunny Robe
+20003	Lifeguard
+20004	Maritime Sailor
+20005	Seaside Aloha
+20006	Killer Attire
+20007	Edged Wings Training Garb
+20008	Scrap Armor
+20009	Dark Harbinger
+20010	Bandaged Coat
+20011	Pumpkinmare
+20012	Black Hound
+20013	Zidane's Outfit
+20014	Garnet's Gown
+20015	Kuja's Attire
+20016	Amarant's Guise
+20017	Prism Dress
+20018	Fairy of Snowfall
+20019	Holiday Coat
+20020	Fairy of the Holy Flame
+20021	Holiday Suit
+20022	Canyon Duds
+20023	Celebratory Garb
+20024	Official Festive Garb
+20025	Winter Moogle
+20027	Electroarmor
+20028	Floral Gown
+20029	Sparkling Skater
+20030	Guide Uniform
+20031	Pilot's Jacket
+20032	Shinra Full Dress Uniform
+20033	Saber Style
+20034	Guardian Style
+20035	Lethal Style
+20036	Vanguard Style
+20038	Gothic Bunny
+20039	Classic Coney
+20040	Bunny Bustier
+20041	Party Jacket
+20043	Aidman's White Coat
+20044	Feather Style
+20045	Glacier Armor
+20046	Shinra Formal Uniform
+20047	Shinobi Hawk
+20052	Natant Jacket
+20053	Summer Moogle
+20054	Beach Agent
+20055	Passion Mermaid
+20056	Citric Dress
+20057	Entrapment Gown
+20058	Dark Attire
+20059	Formal Attire
+20060	Crowmaster Suit
+20061	Pumpkin Jacket
+20062	Nanaki Mantle
+20063	Holiday Cheer Reindeer
+20064	Holiday Outfit
+20065	Holiday Formal Wear
+20066	Holiday Helper
+20067	Festive Blue Daffodil Attire
+20068	Festive Crimson Attire
+20069	Devil Gunner's Coat
+20070	Training Garb of Ruin
+20071	Mystic Coat
+20072	Rabbit Butler
+20073	Dealer's Tailcoat
+20074	Bunny Apron
+20075	Dark Flyer
+20076	Pirate Captain
+20077	Custom Suit
+20078	Rider Style
+20081	Rocker Outfit
+20082	Shining Spirit Beachwear
+20083	Pink Mermaid Beachwear
+20084	Surfer Look
+20085	Resort Style
+30001	Beach Festival Fun!
+30002	Pumpkin Fest
+30003	A Resonant Waltz
+30004	The Holy Flame's Gift
+30006	The Secret Sweetheart
+30007	The Knights of Judgment
+30008	Fall of a Hero - Prologue
+30009	A Tea Party & Festive Eggs
+30010	Rathalos
+30011	Silver Rathalos
+30013	Birth of the Destroyer
+30014	Garbs of the Protectors
+30015	Attack of the Dark Army General
+30016	Locke's Outfit & Terra's Garb
+30017	Edgar's Attire & Sabin's Style
+30018	The Holy Flame's Bounty
+30019	Happy New Year: Massive Mochi Mayhem
+30020	Dragon King Varvados
+30021	Loveless Songstress
+30022	Vanquisher of Souls
+30023	Worthy Adversaries
+30024	Revenge of the Bunberry
+30025	Midgard Seventh High School
+30026	Shinra Private Academy
+30027	Portal Battle: Angeal Penance
+30028	The Pirate King's Challenge
+30029	The All-knowing Slime and the Thespian SOLDIER
+30030	The Demon King and the Captive Princess
+30031	Heroes Who Will Save the World
+30032	Shall I Give You Despair?
+30033	Endgame
+30034	Gallonbaloir Patres
+30035	Three Ex-SOLDIERs
+30036	Rejecting Fate
+30037	Challenging Fate
+30038	Challenging Chaos
+30039	YoRHa No.2 Type B
+30040	Glory to Mankind
+30041	Replicants' Respite
+30042	Kakuriyo-nushi the Purifier
+30043	One with the Blade
+30044	WRO Assault
+30045	Vincent the Bodyguard
+30046	Battle for the Planet
+30047	Ultima Weapon Majeure
+30048	Ruler of the Planet
+30049	DIRGE of CERBERUS
+30050	Deep Grudge
+30051	Tough Girl
+30052	Cunning Would-Be Brides
+30053	Regathering
+30054	Vita et Planetae
+30055	Huge Mega Watermelon Defensive Front
+30056	Sunbathing at the Beach
+30057	Fireworks Galore
+30058	Fireworks at the Beach
+30059	Safer Sephiroth
+30060	Battle to Save the Planet

@@ -1,0 +1,29 @@
+# Memoria: id, English name. Give with --give memoria=ID (see README.txt).
+#
+id	name
+1510001	Memoria of Bahamut SIN
+1510002	Memoria of the Church Two Years Later
+1510003	Memoria of the 2nd Anniversary
+1510005	Memoria of Three Ex-SOLDIERs
+1510006	Memoria of Lightning
+1510007	Memoria of Eligor
+1510008	Memoria of Stilva
+1510009	Memoria of 2B
+1510010	Memoria of Master Tonberry
+1510011	Memoria of the Stallion of Good Fortune
+1510012	Memoria of Rufus
+1510013	Memoria of DC Ep. 1
+1510014	Memoria of Masamune
+1510015	Memoria of DC Ep. 2
+1510016	Memoria of DC Ep. 3
+1510017	Memoria of 2.5 Year Anniv.
+1510018	Memoria of Weapon Majeure
+1510019	Memoria of Revenant Mother Alissa
+1510020	Memoria of Abzu
+1510021	Memoria of Behemoth Steward
+1510022	Memoria of Neo Bahamut
+1510023	Memoria of Beach Festival
+1510024	Memoria of Blastuar
+1510025	Memoria of Safer Sephiroth
+1510026	Memoria of Final Conflict
+1510027	Memoria of 3rd Anniv.

@@ -1,0 +1,167 @@
+# Upgrade materials: character, summon and role pieces, materia and weapon materials, brands.
+# id, English name. Give with --give item=ID=COUNT (see README.txt).
+#
+id	name
+3	Character's Master Memory
+2001	Cloud's Memory
+2002	Barret's Memory
+2003	Tifa's Memory
+2004	Aerith's Memory
+2005	Red XIII's Memory
+2006	Yuffie's Memory
+2007	Cait Sith's Memory
+2008	Vincent's Memory
+2009	Cid's Memory
+2020	Zack's Memory
+2049	Sephiroth's Memory
+2050	Glenn's Memory
+2051	Matt's Memory
+2052	Lucia's Memory
+2056	Angeal's Memory
+2060	Sephiroth (Original)'s Memory
+2101	Cloud's Noble Memory
+2102	Barret's Noble Memory
+2103	Tifa's Noble Memory
+2104	Aerith's Noble Memory
+2105	Red XIII's Noble Memory
+2106	Yuffie's Noble Memory
+2107	Cait Sith's Noble Memory
+2108	Vincent's Noble Memory
+2109	Cid's Noble Memory
+2120	Zack's Noble Memory
+2149	Sephiroth's Noble Memory
+2150	Glenn's Noble Memory
+2151	Matt's Noble Memory
+2152	Lucia's Noble Memory
+2156	Angeal's Noble Memory
+2160	Sephiroth (Original)'s Noble Memory
+12001	Power Piece
+12002	Magic Piece
+12003	Healing Piece
+4	Summon's Master Memory
+3001	Ifrit's Memory
+3002	Shiva's Memory
+3003	Leviathan's Memory
+3006	Ramuh's Memory
+3007	Bahamut's Memory
+3011	Titan's Memory
+3012	Odin's Memory
+3051	Ifrit & Bahamut's Memory
+3052	Shiva & Ramuh's Memory
+3053	Leviathan & Bahamut's Memory
+3101	Ifrit's Noble Memory
+3102	Shiva's Noble Memory
+3103	Leviathan's Noble Memory
+3106	Ramuh's Noble Memory
+3107	Bahamut's Noble Memory
+3111	Titan's Noble Memory
+3112	Odin's Noble Memory
+3151	Ifrit & Bahamut's Noble Memory
+3152	Shiva & Ramuh's Noble Memory
+3153	Leviathan & Bahamut's Noble Memory
+4001	Materia Booster (S)
+4002	Materia Booster (M)
+4003	Materia Booster (L)
+5011	Flame Ore
+5012	Flame Crystal
+5021	Frost Ore
+5022	Frost Crystal
+5031	Blitz Ore
+5032	Blitz Crystal
+5041	Geo Ore
+5042	Geo Crystal
+5051	Water Ore
+5052	Water Crystal
+5061	Wind Ore
+5062	Wind Crystal
+5091	Void Ore
+5092	Void Crystal
+5111	Magic Chip
+5112	Magic Tumble
+5121	Physical Chip
+5122	Physical Tumble
+6001	Synth Catalyst – Dawn
+6002	Synth Catalyst – Day
+6003	Synth Catalyst – Evening
+6004	Synth Catalyst – Night
+6005	Synth Catalyst Piece – Dawn
+6006	Synth Catalyst Piece – Day
+6007	Synth Catalyst Piece – Evening
+6008	Synth Catalyst Piece – Night
+6009	Synth Catalyst Sliver – Dawn
+6010	Synth Catalyst Sliver – Day
+6011	Synth Catalyst Sliver – Evening
+6012	Synth Catalyst Sliver – Night
+6013	Synth Catalyst – First Light
+8001	Bookmark
+9001	Grindstone Shard
+9002	Grindstone
+9003	Grindstone Chunk
+10011	Low-Grade Steel
+10012	Mid-Grade Steel
+10013	High-Grade Steel
+10021	Low-Grade Electrum
+10022	Mid-Grade Electrum
+10023	High-Grade Electrum
+10041	Low-Grade Rose Gold
+10042	Mid-Grade Rose Gold
+10043	High-Grade Rose Gold
+10111	Mythril Ore
+10112	Mythril Ingot
+10113	Refined Mythril
+10114	Pristine Mythril
+10151	Genome Pod X
+10152	Genome Megapod X
+10161	Genome Pod Y
+10162	Genome Megapod Y
+10172	Genome Megapod Z
+10181	Nanocube Model I
+10182	Microcube Model I
+10191	Nanocube Model II
+10192	Microcube Model II
+10202	Microcube Model III
+38011	Lesser Power Branding Stone
+38012	Power Branding Stone
+38013	Greater Power Branding Stone
+38021	Lesser Magic Branding Stone
+38022	Magic Branding Stone
+38023	Greater Magic Branding Stone
+38031	Lesser Stamina Branding Stone
+38032	Stamina Branding Stone
+38033	Greater Stamina Branding Stone
+38041	Lesser Attack Branding Stone
+38042	Attack Branding Stone
+38043	Greater Attack Branding Stone
+38051	Lesser Defense Branding Stone
+38052	Defense Branding Stone
+38053	Greater Defense Branding Stone
+38061	Lesser PATK Branding Stone
+38062	PATK Branding Stone
+38063	Greater PATK Branding Stone
+38071	Lesser MATK Branding Stone
+38072	MATK Branding Stone
+38073	Greater MATK Branding Stone
+12201	Attacker's Memory
+12202	Tank's Memory
+12203	Supporter's Memory
+12204	Healer's Memory
+12205	Unknown Memory
+12301	Attacker's Noble Memory
+12302	Tank's Noble Memory
+12303	Supporter's Noble Memory
+12304	Healer's Noble Memory
+12305	Unknown Noble Memory
+40001	Small Memorial Shard
+40002	Medium Memorial Shard
+40003	Large Memorial Shard
+4001011	Army of One's Memory
+4002011	Whirling Ravager's Memory
+4003011	Shadow Flare's Memory
+4004011	Super Nova's Memory
+13001	Heart Customizer
+13002	Spade Customizer
+13003	Diamond Customizer
+13101	White Customization Kit
+13201	Red Customization Kit
+13202	Blue Customization Kit
+13301	Guild Customization Kit

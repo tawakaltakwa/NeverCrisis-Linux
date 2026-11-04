@@ -1,0 +1,507 @@
+# Weapons: id, highest rarity, English name. Give with --give weapon=ID (see README.txt).
+#
+id	rarity	name	character
+1001	SSR	Buster Sword	Cloud
+1002	SSR	Iron Blade	Cloud
+1003	SSR	Hardedge	Cloud
+1004	SSR	Mythril Saber	Cloud
+1006	SSR	Butterfly Edge	Cloud
+1007	SSR	Murasame	Cloud
+1008	SSR	Organics	Cloud
+1009	SSR	Crystal Sword	Cloud
+1012	SSR	Enhance Sword	Cloud
+1013	SSR	Nail Bat	Cloud
+1015	SSR	Apocalypse	Cloud
+1020	SSR	Maritime Sword	Cloud
+1021	SSR	Full Throttle	Cloud
+1022	SSR	Mystic Sword	Cloud
+1024	SSR	Shiva's Blade	Cloud
+1025	SSR	Bandaged Sword	Cloud
+1028	SSR	Skysplitter	Cloud
+1029	SSR	Zidane's Sword	Cloud
+1030	SSR	Holiday Cheer	Cloud
+1031	SSR	Stream Saber	Cloud
+1032	SSR	Igneous Saber	Cloud
+1033	SSR	Glavenus Sword	Cloud
+1034	SSR	Rune Blade	Cloud
+1035	SSR	Burning Oar	Cloud
+1036	SSR	Bahamut Greatsword	Cloud
+1037	101	Ultimate Buster Sword	Cloud
+1038	SSR	Locke's Sword	Cloud
+1039	SSR	Holiday Blade	Cloud
+1040	SSR	Chocobo Paddle	Cloud
+1042	SSR	Sleek Saber	Cloud
+1043	SSR	Noble Parasol	Cloud
+1044	SSR	Erdrick's Sword	Cloud
+1045	SSR	Radblade	Cloud
+1046	SSR	Umbral Blade	Cloud
+1047	101	Ragnarok	Cloud
+1048	SSR	Fusion Sword	Cloud
+1049	SSR	Crimson Blitz	Cloud
+1050	SSR	Cruel Successor	Cloud
+1051	SSR	Umbralschwert	Cloud
+1052	SSR	Chevron Blade	Cloud
+1053	SSR	Neo Bahamut Greatsword	Cloud
+1054	101	Blue Glitter	Cloud
+1055	SSR	Salvation Sword	Cloud
+2001	SSR	Gatling Gun	Barret
+2002	SSR	Assault Gun	Barret
+2007	SSR	Heavy Vulcan	Barret
+2008	SSR	Microlaser	Barret
+2010	SSR	W Machine	Barret
+2011	SSR	Solid Bazooka	Barret
+2012	SSR	Enemy Launcher	Barret
+2013	SSR	Max Ray	Barret
+2015	SSR	Flame Projector	Barret
+2017	SSR	Electrocannon	Barret
+2018	SSR	Heavy Hauser	Barret
+2019	SSR	Lefko Kypseli	Barret
+2020	SSR	Rocket Punch	Barret
+2021	SSR	Sharkslayer	Barret
+2022	SSR	Shiva Cannon	Barret
+2024	SSR	Hell House Cannon	Barret
+2025	SSR	Siege Cannon	Barret
+2027	SSR	Leviathan Buster	Barret
+2029	SSR	Rhad Cannon	Barret
+2031	101	Ultimate Gatling Gun	Barret
+2032	SSR	Escutcheon Cannon	Barret
+2033	SSR	Sunrise Cannon	Barret
+2035	SSR	Fafnir Rifle	Barret
+2036	101	Missing Score	Barret
+2038	SSR	Teacher's Paper Fan	Barret
+2039	SSR	Hook Launcher	Barret
+2040	SSR	Quad Gatling Gun	Barret
+2042	SSR	Companion Arm	Barret
+2044	101	Battle Cry	Barret
+3001	SSR	Leather Gloves	Tifa
+3002	SSR	Metal Knuckles	Tifa
+3005	SSR	Grand Gloves	Tifa
+3006	SSR	Sonic Striker	Tifa
+3007	SSR	Tiger Fangs	Tifa
+3010	SSR	Crystal Gloves	Tifa
+3011	SSR	Motor Drive	Tifa
+3013	SSR	Kaiser Knuckles	Tifa
+3014	SSR	Work Gloves	Tifa
+3015	SSR	Powersoul	Tifa
+3019	SSR	Lifeguard Wraps	Tifa
+3020	SSR	Feathered Gloves	Tifa
+3023	SSR	Riding Gloves	Tifa
+3024	SSR	Bahamut Knuckles	Tifa
+3025	SSR	Holy Flame Gloves	Tifa
+3027	SSR	Amarant's Claws	Tifa
+3028	SSR	Bunny Gloves	Tifa
+3029	SSR	Oven Mitts	Tifa
+3030	SSR	Turks' Gloves	Tifa
+3031	SSR	Guide Gloves	Tifa
+3032	SSR	Kirin Gloves	Tifa
+3033	SSR	Shell Knuckles	Tifa
+3034	SSR	Steward Gloves	Tifa
+3035	SSR	Bahamut Fangs	Tifa
+3036	SSR	Black Cat's Paws	Tifa
+3037	101	Ultimate Leather Gloves	Tifa
+3038	SSR	Sabin's Claws	Tifa
+3039	SSR	Blue Daffodil Gloves	Tifa
+3040	101	Premium Heart	Tifa
+3041	SSR	Odin Gloves	Tifa
+3042	SSR	Gauntlets of the Worthy	Tifa
+3043	SSR	Járngreipr	Tifa
+3044	SSR	Elegant Gloves	Tifa
+3045	SSR	Penance Gloves	Tifa
+3046	SSR	Shining Gloves	Tifa
+3047	SSR	Class President's Bracelet	Tifa
+3048	SSR	Striped Moogle Gloves	Tifa
+3049	SSR	Leather Combat Gloves	Tifa
+3050	SSR	Lightning's Gloves	Tifa
+3051	101	Dragon Claw	Tifa
+3052	SSR	Demon's Impetus	Tifa
+3053	SSR	Festive Gloves	Tifa
+3055	SSR	Master's Knuckles	Tifa
+4001	SSR	Guard Stick	Aerith
+4002	SSR	Silver Staff	Aerith
+4003	SSR	Striking Staff	Aerith
+4004	SSR	Mythril Rod	Aerith
+4005	SSR	Full Metal Staff	Aerith
+4007	SSR	Prism Rod	Aerith
+4008	SSR	Fairy Tale	Aerith
+4009	SSR	Wizard Staff	Aerith
+4010	SSR	Wizer Staff	Aerith
+4014	SSR	Sun Umbrella	Aerith
+4015	SSR	Floral Wand	Aerith
+4016	SSR	Umbrella	Aerith
+4017	SSR	Sylvan Guardian	Aerith
+4018	SSR	Sea Dragon Staff	Aerith
+4019	SSR	Chocobo Staff	Aerith
+4020	SSR	Snowflake	Aerith
+4021	SSR	Ramuh's Staff	Aerith
+4022	SSR	Garnet's Rod	Aerith
+4023	SSR	Egg Staff	Aerith
+4024	SSR	Dawn's Prayers	Aerith
+4025	SSR	Kamura Wand	Aerith
+4026	SSR	Radrod	Aerith
+4027	SSR	Hell House Rod	Aerith
+4028	SSR	Citric Wand	Aerith
+4029	SSR	Bahamut Rod	Aerith
+4030	101	Ultimate Guard Stick	Aerith
+4031	SSR	Terra's Rod	Aerith
+4032	SSR	Titan Rod	Aerith
+4033	SSR	Crimson Staff	Aerith
+4034	SSR	Gambanteinn	Aerith
+4035	SSR	Noblesse Rod	Aerith
+4036	101	Princess Guard	Aerith
+4037	SSR	Gorgeous Staff	Aerith
+4038	SSR	Mermaid Rod	Aerith
+4039	SSR	Supreme Sage's Staff	Aerith
+4040	SSR	Team Leader's Bamboo Sword	Aerith
+4041	SSR	Magatsuchi Rod	Aerith
+4042	SSR	Lightning's Rod	Aerith
+4043	SSR	Staff of the Possessed	Aerith
+4044	101	Abraxas	Aerith
+4045	SSR	Rousing Wizer Staff	Aerith
+4046	SSR	Festive Rod	Aerith
+4048	SSR	Cetra Relic	Aerith
+5001	SSR	Sleek Collar	Red XIII
+5004	SSR	Silver Collar	Red XIII
+5005	SSR	Gold Collar	Red XIII
+5009	SSR	Platinum Collar	Red XIII
+5016	SSR	Noble Collar	Red XIII
+5017	SSR	Ivy Collar	Red XIII
+5018	SSR	Rage Collar	Red XIII
+5019	SSR	Leather Collar	Red XIII
+5020	SSR	Rubber Collar	Red XIII
+5021	SSR	Junk Collar	Red XIII
+5023	SSR	Canyon Collar	Red XIII
+5024	SSR	Pilot's Collar	Red XIII
+5026	SSR	Iron Collar	Red XIII
+5027	SSR	Headphones	Red XIII
+5028	SSR	Seaside Collar	Red XIII
+5031	SSR	Hell House Collar	Red XIII
+5032	SSR	Flame Dragon's Band	Red XIII
+5033	SSR	Egg Collar	Red XIII
+5034	SSR	Amethyst Collar	Red XIII
+5035	SSR	Steward Collar	Red XIII
+5036	101	Ultimate Leather Collar	Red XIII
+5037	SSR	Kefka's Collar	Red XIII
+5038	SSR	Brilliant Collar	Red XIII
+5040	SSR	Pirate Collar	Red XIII
+5041	101	Limited Moon	Red XIII
+5042	SSR	Great Sabrecat Collar	Red XIII
+5043	SSR	Tsviet Collar	Red XIII
+5044	SSR	Patissier's Collar	Red XIII
+5045	101	Brisingamen	Red XIII
+5046	SSR	Super Sleuth Collar	Red XIII
+6001	SSR	4-Point Shuriken	Yuffie
+6002	SSR	Boomerang	Yuffie
+6003	SSR	Pinwheel	Yuffie
+6004	SSR	Razor Ring	Yuffie
+6005	SSR	Hawkeye	Yuffie
+6006	SSR	Crystal Cross	Yuffie
+6007	SSR	Wind Slash	Yuffie
+6008	SSR	Twin Viper	Yuffie
+6009	SSR	Spiral Shuriken	Yuffie
+6010	SSR	Magic Shuriken	Yuffie
+6014	SSR	Diner Tray	Yuffie
+6015	SSR	Arctic Star	Yuffie
+6016	SSR	Bamboo Ring	Yuffie
+6019	SSR	Little Red Wreath	Yuffie
+6022	SSR	Chariot Wheel	Yuffie
+6024	SSR	Leviathan Cutter	Yuffie
+6026	SSR	Striped Moogle Float	Yuffie
+6027	SSR	Cactuar Fan	Yuffie
+6028	SSR	Bahamut Cutter	Yuffie
+6029	101	Ultimate 4-Point Shuriken	Yuffie
+6030	SSR	Holiday Bell	Yuffie
+6031	SSR	Mallet of Luck	Yuffie
+6032	101	Conformer	Yuffie
+6033	SSR	Bird of Prey	Yuffie
+6034	SSR	Risanautr	Yuffie
+6035	SSR	Watch of the Hunt	Yuffie
+6036	SSR	Rocker's Guitar	Yuffie
+6037	SSR	Striped Moogle Flag	Yuffie
+6038	SSR	Uber 4-Point Shuriken	Yuffie
+6039	SSR	Fatum Ex Machina	Yuffie
+6040	SSR	Heirloom Brush	Yuffie
+6041	SSR	Winged Chakram	Yuffie
+6043	101	Rising Sun	Yuffie
+6044	SSR	Abzu Cutter	Yuffie
+6046	SSR	Candy Apple	Yuffie
+7001	SSR	Yellow Megaphone	Cait Sith
+7002	SSR	Green Megaphone	Cait Sith
+7003	SSR	Blue Megaphone	Cait Sith
+7004	SSR	Red Megaphone	Cait Sith
+7005	SSR	Crystal Megaphone	Cait Sith
+7008	SSR	Silver Megaphone	Cait Sith
+7009	SSR	Gold Megaphone	Cait Sith
+7010	SSR	Battle Trumpet	Cait Sith
+7011	SSR	Trumpet Shell	Cait Sith
+7014	SSR	Marching Horn	Cait Sith
+7015	SSR	Nocturne Horn	Cait Sith
+7017	SSR	Cool Cat's Megaphone	Cait Sith
+7019	SSR	Witch's Broom	Cait Sith
+7022	SSR	Flower Vase	Cait Sith
+7023	SSR	Catsmegaphone	Cait Sith
+7024	SSR	Humus Megaphone	Cait Sith
+7025	SSR	Fireworks Megaphone	Cait Sith
+7026	SSR	Alba Megaphone	Cait Sith
+7027	SSR	Icebolt Megaphone	Cait Sith
+7028	101	Ultimate Yellow Megaphone	Cait Sith
+7029	SSR	Quina Megaphone	Cait Sith
+7031	SSR	Stilva Megaphone	Cait Sith
+7032	101	HP Shout	Cait Sith
+7033	SSR	Spirit Demon Megaphone	Cait Sith
+7035	SSR	Ex-paw-dition Megaphone	Cait Sith
+7036	SSR	Sable Megaphone	Cait Sith
+7037	101	Starlight Phone	Cait Sith
+8001	SSR	Transgressor	Vincent
+8002	SSR	Cath Palug	Vincent
+8003	SSR	Gilded Age	Vincent
+8004	SSR	S1976C	Vincent
+8005	SSR	Shortbarrel	Vincent
+8007	SSR	T03 Model N	Vincent
+8008	SSR	Sawed-Off GS	Vincent
+8009	SSR	Chiron	Vincent
+8010	SSR	Double Stem E	Vincent
+8012	SSR	White Dog	Vincent
+8013	SSR	Kugelblitz	Vincent
+8014	SSR	Silver Rifle	Vincent
+8015	SSR	Hugin & Munin	Vincent
+8016	SSR	Crow Familiar	Vincent
+8017	SSR	Quicksilver	Vincent
+8018	SSR	Icebolt Shooter	Vincent
+8019	101	Ultimate Quicksilver	Vincent
+8020	SSR	Rhad Gun	Vincent
+8021	SSR	Eligor Gun	Vincent
+8022	SSR	Holiday Garm	Vincent
+8023	SSR	Noblesse Automatic	Vincent
+8024	SSR	Gun of the Worthy	Vincent
+8025	101	Death Penalty	Vincent
+8026	SSR	Electro Peashooter	Vincent
+8027	SSR	Galian Roar	Vincent
+8029	101	Fomalhaut	Vincent
+8030	SSR	Chrome Death Penalty	Vincent
+8031	SSR	Merciless White	Vincent
+8032	SSR	Festival Pistol	Vincent
+9001	SSR	Spear	Cid
+9002	SSR	Slash Lance	Cid
+9003	SSR	Trident	Cid
+9004	SSR	Pole Axe	Cid
+9005	SSR	Partisan	Cid
+9006	SSR	Viper Halberd	Cid
+9008	SSR	Radiant Lance	Cid
+9010	SSR	Dragoon Lance	Cid
+9011	SSR	Scimitar	Cid
+9012	SSR	Flayer	Cid
+9015	SSR	Rocket Lance	Cid
+9016	SSR	Mop	Cid
+9018	101	Ultimate Spear	Cid
+9019	SSR	Odin Spear	Cid
+9020	SSR	Lance of the Hunt	Cid
+9024	SSR	Captain's Spear	Cid
+9025	101	Venus Gospel	Cid
+9026	SSR	Antler Pike	Cid
+9028	SSR	Patissier's Spear	Cid
+9029	SSR	Festive Spear	Cid
+9030	SSR	Grinding Gear	Cid
+9031	SSR	Mythic Skipper	Cid
+20001	SSR	Type-99 Longsword	Zack
+20002	SSR	Buster Sword Origin (Boost HP)	Zack
+20003	SSR	Beach Parasol	Zack
+20004	SSR	Enhance Sword (Z)	Zack
+20005	SSR	Defender	Zack
+20006	SSR	Crystal Sword (Z)	Zack
+20007	SSR	Falchion	Zack
+20008	SSR	Zweihander	Zack
+20009	SSR	Arc Sword	Zack
+20010	SSR	Cutlass	Zack
+20011	SSR	Ceremonial Sword (Z)	Zack
+20012	SSR	Battering Sword	Zack
+20013	SSR	Bouquet	Zack
+20014	SSR	Pressure Ridge	Zack
+20015	SSR	Iron Greatsword	Zack
+20016	SSR	Ifrit's Sword	Zack
+20018	SSR	Twinkling Star	Zack
+20019	SSR	Black Whiskers	Zack
+20020	SSR	Stream Guard	Zack
+20023	SSR	Zinogre Blade	Zack
+20024	SSR	Carrot Sword	Zack
+20025	SSR	Alba Blade	Zack
+20026	101	Ultimate Type-99 Longsword	Zack
+20027	SSR	Beatrix Sword	Zack
+20028	101	Durandal	Zack
+20029	SSR	White Tree	Zack
+20031	SSR	Sword of the Hunt	Zack
+20032	SSR	Zenithian Sword	Zack
+20033	SSR	Buster Sword Origin (Boost PDEF)	Zack
+20034	SSR	Surfer Blade	Zack
+20035	SSR	Magatsuchi Blade	Zack
+20036	SSR	Virtuous Contract	Zack
+20037	SSR	Rousing Arc Sword	Zack
+20038	SSR	Festive Sword	Zack
+20039	SSR	Gelid Sword	Zack
+20041	101	Divine Emissary	Zack
+20042	SSR	Wheel Edge	Zack
+49001	SSR	Nameless	Sephiroth
+49002	SSR	Edged Wings	Sephiroth
+49003	SSR	Glaireid	Sephiroth
+49004	SSR	Aonibi	Sephiroth
+49005	SSR	Northern Lights	Sephiroth
+49006	SSR	Prototype Crimson Blade	Sephiroth
+49007	SSR	CC Alloy Sword	Sephiroth
+49008	SSR	Mythril Type-0 Katana	Sephiroth
+49009	SSR	Shinra Blade: Model I	Sephiroth
+49010	SSR	Tempest	Sephiroth
+49011	SSR	Shinra Military Sword	Sephiroth
+49012	SSR	Torn Wing	Sephiroth
+49013	SSR	World Tree Bough	Sephiroth
+49015	SSR	Dark Heavens	Sephiroth
+49016	SSR	Kuja's Spirit Blade	Sephiroth
+49017	SSR	Radiant Edge	Sephiroth
+49018	SSR	Protector's Blade	Sephiroth
+49019	SSR	Flame Dragon Blade	Sephiroth
+49020	SSR	Ashura	Sephiroth
+49022	SSR	Humus Saber	Sephiroth
+49023	SSR	Shinra Wyvern Blade	Sephiroth
+49024	SSR	Blue Bramble	Sephiroth
+49026	101	Ultimate Nameless	Sephiroth
+49027	101	Genji Blade	Sephiroth
+49028	SSR	Edgar's Coiled Blade	Sephiroth
+49029	SSR	Wintercrest Blade	Sephiroth
+49030	SSR	Blade of the Worthy	Sephiroth
+49031	SSR	Withering Blaze	Sephiroth
+49032	SSR	Serrated Remiges	Sephiroth
+49033	SSR	Pandemonic Sword	Sephiroth
+49034	SSR	Folding Ruler	Sephiroth
+49035	SSR	Sōba	Sephiroth
+49037	SSR	Overture	Sephiroth
+49039	SSR	Phoenix Odachi	Sephiroth
+49040	SSR	Cerulean Sky	Sephiroth
+49041	SSR	Immaculate Blade	Sephiroth
+49042	101	Metsumato	Sephiroth
+49043	SSR	Infiltration Sword	Sephiroth
+50001	SSR	Personal Style	Glenn
+50002	SSR	Crewkicker	Glenn
+50003	SSR	Jiggy Fam	Glenn
+50004	SSR	Hardcore Squad	Glenn
+50005	SSR	Rest in Peace	Glenn
+50006	SSR	Slay the Day	Glenn
+50007	SSR	Ultimatic	Glenn
+50008	SSR	Piece of Cake	Glenn
+50010	SSR	Shockbuster	Glenn
+50011	SSR	Apology in Hell	Glenn
+50012	SSR	Pirate's Glaive	Glenn
+50013	SSR	Blade of Ruin	Glenn
+50014	SSR	Squeaky Hammer	Glenn
+50015	SSR	Inferno Grave	Glenn
+50016	SSR	Pumpkin Lamppost	Glenn
+50018	SSR	Thousand Waves	Glenn
+50019	SSR	Steiner's Blade	Glenn
+50020	SSR	Stream Slasher	Glenn
+50021	SSR	Best Wishes	Glenn
+50022	SSR	Radglaive	Glenn
+50023	SSR	Silver Sol Buster	Glenn
+50024	101	Ultimate Personal Style	Glenn
+50026	SSR	Stilva Glaive	Glenn
+50027	101	Ogrekiller	Glenn
+50029	SSR	Set Square	Glenn
+50030	SSR	Desperado Glaive	Glenn
+50031	SSR	Snow's Bardiche	Glenn
+50032	SSR	Patissier's Glaive	Glenn
+50033	SSR	Revenant Mother's Glaive	Glenn
+50034	SSR	Garish Greatblade	Glenn
+51001	SSR	Broadsword: Axis	Matt
+51002	SSR	Orthodox Raven	Matt
+51003	SSR	Absolute Royal	Matt
+51004	SSR	Prime Number	Matt
+51005	SSR	Espee Rapiere Next-G	Matt
+51006	SSR	Core Defender	Matt
+51007	SSR	Centipede	Matt
+51008	SSR	Stingray	Matt
+51009	SSR	Killer Hornet	Matt
+51010	SSR	Bramble Spine	Matt
+51012	SSR	Syringe Rapier	Matt
+51013	SSR	Foam Sword	Matt
+51015	SSR	Slick Beetle	Matt
+51016	SSR	Bahamut Rapier	Matt
+51017	SSR	Holiday Cane	Matt
+51018	SSR	Giant Fork	Matt
+51020	SSR	Humus Rapier	Matt
+51021	SSR	Nautilus Spiral	Matt
+51022	SSR	Firefish	Matt
+51023	SSR	Deroplatys	Matt
+51024	101	Ultimate Broadsword: Axis	Matt
+51025	SSR	Candle Rapier	Matt
+51026	SSR	Luminary Sword	Matt
+51027	SSR	Hrotti	Matt
+51029	101	Gladius	Matt
+51030	SSR	Physician's Scalpel	Matt
+51031	SSR	Dragontail Sword	Matt
+51032	SSR	Desperado Rapier	Matt
+52001	SSR	V39	Lucia
+52002	SSR	Pulse Gun	Lucia
+52003	SSR	Serpent Eater	Lucia
+52004	SSR	Thunderbird	Lucia
+52005	SSR	Tranquilizer Gun	Lucia
+52006	SSR	SSR1976	Lucia
+52007	SSR	Mad Minute	Lucia
+52008	SSR	Killer Falcon	Lucia
+52009	SSR	Bald Eagle	Lucia
+52010	SSR	Black Rifle	Lucia
+52013	SSR	Nightjar	Lucia
+52014	SSR	Rubber Band Gun	Lucia
+52015	SSR	Featherscatter	Lucia
+52016	SSR	Barn Swallow	Lucia
+52017	SSR	Pumpkin Blaster	Lucia
+52019	SSR	Rifle of Levin	Lucia
+52020	SSR	Holiday Revolver	Lucia
+52021	SSR	Vivi's Magical Gun	Lucia
+52022	SSR	Rose Musket	Lucia
+52023	SSR	Turks' Rifle	Lucia
+52025	SSR	Marine Shooter	Lucia
+52026	101	Ultimate V39	Lucia
+52027	SSR	Eligor Rifle	Lucia
+52029	SSR	Rifle of the Hunt	Lucia
+52030	SSR	Spirit Demon Rifle	Lucia
+52031	SSR	Shinra Ceremonial Rifle	Lucia
+52032	101	Aldebaran	Lucia
+52034	SSR	Desperado Rifle	Lucia
+52036	101	Total Eclipse	Lucia
+56001	SSR	Type-90 Longsword	Angeal
+56002	SSR	Greatsword (A)	Angeal
+56003	SSR	Type-91 Two-Hander	Angeal
+56004	SSR	Shinra Greatsword: Model I	Angeal
+56005	SSR	CC Alloy Greatsword	Angeal
+56006	SSR	Stalwart Integrity	Angeal
+56007	SSR	Innocent Warrior	Angeal
+56008	SSR	Gargantuan Monolith	Angeal
+56009	SSR	Sequoiadendron	Angeal
+56010	SSR	Tranquility	Angeal
+56011	SSR	Orchard Shovel	Angeal
+56012	101	Ultimate Type-90 Longsword	Angeal
+56013	SSR	Cyan's Blade	Angeal
+56014	SSR	Mythril Slasher	Angeal
+56015	SSR	Volcanic Heat	Angeal
+56016	SSR	Titan Blade	Angeal
+56017	SSR	Turks' Blade	Angeal
+56019	SSR	Greatsword of the Worthy	Angeal
+56020	SSR	Blade of the Hunt	Angeal
+56021	SSR	Penance Blade	Angeal
+56022	SSR	Inflatable Buster Sword	Angeal
+56023	SSR	Rhad Blade	Angeal
+56025	101	Balmung	Angeal
+56026	SSR	Ghost Ensis	Angeal
+56027	SSR	Master Tonberry's Blade	Angeal
+56028	SSR	Lightning's Sword	Angeal
+56029	SSR	Sea Dragon Greatsword	Angeal
+56030	SSR	Festive Blade	Angeal
+56032	SSR	Festival Umbrella	Angeal
+60001	SSR	Masamune	Sephiroth (Original)
+60002	SSR	Shiranui	Sephiroth (Original)
+60003	SSR	Osafune	Sephiroth (Original)
+60004	SSR	Kotetsu	Sephiroth (Original)
+60005	SSR	Kikuichimonji	Sephiroth (Original)
+60006	101	Ultimate Masamune	Sephiroth (Original)
+60007	SSR	Muramasa	Sephiroth (Original)
+60008	101	Heaven's Cloud	Sephiroth (Original)
+60009	SSR	Divine Steed Blade	Sephiroth (Original)
+60010	SSR	Starsoul Blade	Sephiroth (Original)
+60012	SSR	Omega Wing	Sephiroth (Original)
+60014	SSR	Kusanagi	Sephiroth (Original)
